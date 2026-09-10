@@ -1,0 +1,28 @@
+{
+ "entityType": "variable",
+ "data": {
+  "createdAt": "2026-09-07T07:38:39.646Z",
+  "updatedAt": "2026-09-07T07:38:39.646Z",
+  "isDeleted": false,
+  "entityId": "09fd8bdf-bb06-46b2-8bfd-d301649728e8",
+  "name": "creditApplication",
+  "category": "globalVar",
+  "scope": "workspace",
+  "dataType": "json",
+  "value": {
+   "data": {
+    "annualIncome": 85000,
+    "applicantName": "John Doe",
+    "creditScore": 720,
+    "employmentYears": 5,
+    "existingDebt": 15000,
+    "loanAmount": 25000,
+    "loanTerm": 36
+   },
+   "isSecret": false,
+   "canReset": false
+  },
+  "isFunction": false,
+  "functionName": ""
+ }
+}

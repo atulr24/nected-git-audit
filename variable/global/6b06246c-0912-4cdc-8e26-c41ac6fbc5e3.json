@@ -1,0 +1,20 @@
+{
+ "entityType": "variable",
+ "data": {
+  "createdAt": "2026-08-27T11:04:26.451Z",
+  "updatedAt": "2026-08-27T11:04:26.451Z",
+  "isDeleted": false,
+  "entityId": "6b06246c-0912-4cdc-8e26-c41ac6fbc5e3",
+  "name": "nameDyna",
+  "category": "globalVar",
+  "scope": "workspace",
+  "dataType": "string",
+  "value": {
+   "data": "Atul",
+   "isSecret": false,
+   "canReset": true
+  },
+  "isFunction": false,
+  "functionName": ""
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "entityType": "variable",
+ "data": {
+  "createdAt": "2026-08-21T13:39:11.46Z",
+  "updatedAt": "2026-08-26T09:41:30.782298Z",
+  "isDeleted": false,
+  "entityId": "7196b8e1-3aad-4618-9b66-532ee98dd8e7",
+  "name": "list",
+  "category": "globalVar",
+  "scope": "workspace",
+  "dataType": "list",
+  "value": {
+   "data": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    11,
+    1223,
+    34,
+    45,
+    10001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008
+   ],
+   "isSecret": false,
+   "canReset": false
+  },
+  "isFunction": false,
+  "functionName": ""
+ }
+}

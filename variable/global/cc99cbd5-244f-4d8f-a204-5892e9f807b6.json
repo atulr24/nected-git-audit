@@ -1,0 +1,2141 @@
+{
+ "entityType": "variable",
+ "data": {
+  "createdAt": "2026-08-26T09:40:35.361Z",
+  "updatedAt": "2026-08-26T09:40:49.047974Z",
+  "isDeleted": false,
+  "entityId": "cc99cbd5-244f-4d8f-a204-5892e9f807b6",
+  "name": "json",
+  "category": "globalVar",
+  "scope": "workspace",
+  "dataType": "json",
+  "value": {
+   "data": {
+    "meta": {
+ "description": "Dummy JSON dataset for testing purposes",
+ "generated_at": "2026-08-26T00:00:00Z",
+ "schema_version": "1.0",
+ "total_records": 50
+},
+    "users": [
+ {
+  "age": 52,
+  "balance": 8553.18,
+  "created_at": "2023-02-02",
+  "email": "christopher.brown1@demo.org",
+  "first_name": "Christopher",
+  "id": 1,
+  "is_active": true,
+  "last_login": "2025-05-03",
+  "last_name": "Brown",
+  "location": {
+ "city": "New York",
+ "country": "USA",
+ "lat": 85.160838,
+ "lng": -43.727624
+},
+  "orders": [
+ {
+  "order_date": "2025-02-22",
+  "order_id": "ORD-0001-1",
+  "price": 119.36,
+  "product": "Thingamajig",
+  "quantity": 4,
+  "status": "active"
+ },
+ {
+  "order_date": "2021-04-17",
+  "order_id": "ORD-0001-2",
+  "price": 24.59,
+  "product": "Contraption Z",
+  "quantity": 1,
+  "status": "active"
+ },
+ {
+  "order_date": "2023-10-09",
+  "order_id": "ORD-0001-3",
+  "price": 215.55,
+  "product": "Gizmo Pro",
+  "quantity": 9,
+  "status": "active"
+ },
+ {
+  "order_date": "2021-04-25",
+  "order_id": "ORD-0001-4",
+  "price": 176.71,
+  "product": "Gadget X",
+  "quantity": 7,
+  "status": "pending"
+ },
+ {
+  "order_date": "2022-06-20",
+  "order_id": "ORD-0001-5",
+  "price": 196.15,
+  "product": "Widget B",
+  "quantity": 2,
+  "status": "pending"
+ }
+],
+  "tags": [
+ "new",
+ "trial",
+ "beta"
+],
+  "uuid": "usr-000001-1711"
+ },
+ {
+  "age": 35,
+  "balance": 661.89,
+  "created_at": "2024-01-26",
+  "email": "margaret.brown2@demo.org",
+  "first_name": "Margaret",
+  "id": 2,
+  "is_active": true,
+  "last_login": "2026-07-09",
+  "last_name": "Brown",
+  "location": {
+ "city": "Mumbai",
+ "country": "India",
+ "lat": 33.230565,
+ "lng": 123.426691
+},
+  "orders": [
+ {
+  "order_date": "2022-04-22",
+  "order_id": "ORD-0002-1",
+  "price": 89.69,
+  "product": "Module Q",
+  "quantity": 6,
+  "status": "pending"
+ },
+ {
+  "order_date": "2024-12-08",
+  "order_id": "ORD-0002-2",
+  "price": 321.13,
+  "product": "Widget B",
+  "quantity": 10,
+  "status": "inactive"
+ }
+],
+  "tags": [
+ "beta"
+],
+  "uuid": "usr-000002-8573"
+ },
+ {
+  "age": 65,
+  "balance": 6274.46,
+  "created_at": "2021-02-25",
+  "email": "sandra.jackson3@mail.com",
+  "first_name": "Sandra",
+  "id": 3,
+  "is_active": false,
+  "last_login": "2025-02-05",
+  "last_name": "Jackson",
+  "location": {
+ "city": "Sydney",
+ "country": "Australia",
+ "lat": 44.462486,
+ "lng": -25.763822
+},
+  "orders": [
+ {
+  "order_date": "2025-08-05",
+  "order_id": "ORD-0003-1",
+  "price": 443.48,
+  "product": "Module Q",
+  "quantity": 7,
+  "status": "pending"
+ }
+],
+  "tags": [
+ "trial",
+ "beta",
+ "viewer",
+ "premium"
+],
+  "uuid": "usr-000003-3287"
+ },
+ {
+  "age": 56,
+  "balance": 1115.52,
+  "created_at": "2023-09-25",
+  "email": "betty.wilson4@demo.org",
+  "first_name": "Betty",
+  "id": 4,
+  "is_active": false,
+  "last_login": "2026-11-11",
+  "last_name": "Wilson",
+  "location": {
+ "city": "Dubai",
+ "country": "UAE",
+ "lat": 5.240582,
+ "lng": 169.588216
+},
+  "orders": [],
+  "tags": [
+ "editor"
+],
+  "uuid": "usr-000004-7304"
+ },
+ {
+  "age": 50,
+  "balance": 4886.06,
+  "created_at": "2024-03-18",
+  "email": "susan.garcia5@mail.com",
+  "first_name": "Susan",
+  "id": 5,
+  "is_active": true,
+  "last_login": "2025-10-11",
+  "last_name": "Garcia",
+  "location": {
+ "city": "Tokyo",
+ "country": "Japan",
+ "lat": 66.693343,
+ "lng": -72.559875
+},
+  "orders": [],
+  "tags": [
+ "viewer",
+ "trial"
+],
+  "uuid": "usr-000005-5315"
+ },
+ {
+  "age": 26,
+  "balance": 4514.86,
+  "created_at": "2020-07-22",
+  "email": "patricia.lopez6@mail.com",
+  "first_name": "Patricia",
+  "id": 6,
+  "is_active": false,
+  "last_login": "2026-08-17",
+  "last_name": "Lopez",
+  "location": {
+ "city": "Toronto",
+ "country": "Canada",
+ "lat": 80.432762,
+ "lng": -120.554295
+},
+  "orders": [
+ {
+  "order_date": "2020-02-24",
+  "order_id": "ORD-0006-1",
+  "price": 440.21,
+  "product": "Widget A",
+  "quantity": 4,
+  "status": "suspended"
+ }
+],
+  "tags": [
+ "beta",
+ "vip",
+ "new",
+ "trial"
+],
+  "uuid": "usr-000006-2133"
+ },
+ {
+  "age": 31,
+  "balance": 4111.02,
+  "created_at": "2018-02-22",
+  "email": "linda.davis7@demo.org",
+  "first_name": "Linda",
+  "id": 7,
+  "is_active": true,
+  "last_login": "2026-06-14",
+  "last_name": "Davis",
+  "location": {
+ "city": "Los Angeles",
+ "country": "USA",
+ "lat": 40.203462,
+ "lng": 137.657907
+},
+  "orders": [
+ {
+  "order_date": "2024-04-01",
+  "order_id": "ORD-0007-1",
+  "price": 281.41,
+  "product": "Widget A",
+  "quantity": 10,
+  "status": "active"
+ },
+ {
+  "order_date": "2020-06-03",
+  "order_id": "ORD-0007-2",
+  "price": 43.02,
+  "product": "Widget A",
+  "quantity": 4,
+  "status": "inactive"
+ }
+],
+  "tags": [
+ "beta",
+ "external",
+ "internal",
+ "editor"
+],
+  "uuid": "usr-000007-5562"
+ },
+ {
+  "age": 69,
+  "balance": 8613.49,
+  "created_at": "2021-04-28",
+  "email": "margaret.johnson8@testmail.io",
+  "first_name": "Margaret",
+  "id": 8,
+  "is_active": true,
+  "last_login": "2025-08-26",
+  "last_name": "Johnson",
+  "location": {
+ "city": "Los Angeles",
+ "country": "USA",
+ "lat": -45.24186,
+ "lng": -111.524793
+},
+  "orders": [],
+  "tags": [
+ "viewer",
+ "internal",
+ "new",
+ "external"
+],
+  "uuid": "usr-000008-7596"
+ },
+ {
+  "age": 72,
+  "balance": 4192.25,
+  "created_at": "2022-04-19",
+  "email": "sarah.brown9@example.com",
+  "first_name": "Sarah",
+  "id": 9,
+  "is_active": true,
+  "last_login": "2025-10-03",
+  "last_name": "Brown",
+  "location": {
+ "city": "New York",
+ "country": "USA",
+ "lat": -77.66616,
+ "lng": -155.534089
+},
+  "orders": [
+ {
+  "order_date": "2026-04-06",
+  "order_id": "ORD-0009-1",
+  "price": 463.91,
+  "product": "Widget A",
+  "quantity": 2,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2023-01-06",
+  "order_id": "ORD-0009-2",
+  "price": 114.73,
+  "product": "Module Q",
+  "quantity": 8,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2026-08-10",
+  "order_id": "ORD-0009-3",
+  "price": 139.94,
+  "product": "Widget A",
+  "quantity": 7,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2021-01-19",
+  "order_id": "ORD-0009-4",
+  "price": 103.04,
+  "product": "Module Q",
+  "quantity": 3,
+  "status": "active"
+ },
+ {
+  "order_date": "2023-09-28",
+  "order_id": "ORD-0009-5",
+  "price": 34.56,
+  "product": "Doohickey",
+  "quantity": 1,
+  "status": "inactive"
+ }
+],
+  "tags": [
+ "internal",
+ "editor"
+],
+  "uuid": "usr-000009-1931"
+ },
+ {
+  "age": 52,
+  "balance": 6539.76,
+  "created_at": "2020-03-15",
+  "email": "charles.jackson10@example.com",
+  "first_name": "Charles",
+  "id": 10,
+  "is_active": true,
+  "last_login": "2026-10-26",
+  "last_name": "Jackson",
+  "location": {
+ "city": "Paris",
+ "country": "France",
+ "lat": 1.059245,
+ "lng": -132.315635
+},
+  "orders": [
+ {
+  "order_date": "2022-04-09",
+  "order_id": "ORD-0010-1",
+  "price": 338.16,
+  "product": "Thingamajig",
+  "quantity": 4,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2026-02-01",
+  "order_id": "ORD-0010-2",
+  "price": 234.03,
+  "product": "Gadget X",
+  "quantity": 5,
+  "status": "suspended"
+ }
+],
+  "tags": [
+ "editor",
+ "beta",
+ "trial"
+],
+  "uuid": "usr-000010-2638"
+ },
+ {
+  "age": 52,
+  "balance": 6820.67,
+  "created_at": "2018-05-12",
+  "email": "james.moore11@mail.com",
+  "first_name": "James",
+  "id": 11,
+  "is_active": true,
+  "last_login": "2025-06-07",
+  "last_name": "Moore",
+  "location": {
+ "city": "Toronto",
+ "country": "Canada",
+ "lat": 60.227104,
+ "lng": 29.703444
+},
+  "orders": [
+ {
+  "order_date": "2020-12-18",
+  "order_id": "ORD-0011-1",
+  "price": 139.58,
+  "product": "Widget B",
+  "quantity": 3,
+  "status": "inactive"
+ },
+ {
+  "order_date": "2025-06-07",
+  "order_id": "ORD-0011-2",
+  "price": 306.36,
+  "product": "Thingamajig",
+  "quantity": 5,
+  "status": "pending"
+ },
+ {
+  "order_date": "2026-01-03",
+  "order_id": "ORD-0011-3",
+  "price": 453.6,
+  "product": "Module Q",
+  "quantity": 5,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2026-03-21",
+  "order_id": "ORD-0011-4",
+  "price": 11.73,
+  "product": "Thingamajig",
+  "quantity": 1,
+  "status": "pending"
+ },
+ {
+  "order_date": "2023-09-01",
+  "order_id": "ORD-0011-5",
+  "price": 280.31,
+  "product": "Gadget X",
+  "quantity": 8,
+  "status": "active"
+ }
+],
+  "tags": [
+ "internal",
+ "viewer"
+],
+  "uuid": "usr-000011-2232"
+ },
+ {
+  "age": 60,
+  "balance": 5362.16,
+  "created_at": "2020-11-17",
+  "email": "nancy.brown12@example.com",
+  "first_name": "Nancy",
+  "id": 12,
+  "is_active": true,
+  "last_login": "2026-11-27",
+  "last_name": "Brown",
+  "location": {
+ "city": "Sydney",
+ "country": "Australia",
+ "lat": -18.276124,
+ "lng": -79.702898
+},
+  "orders": [
+ {
+  "order_date": "2021-03-26",
+  "order_id": "ORD-0012-1",
+  "price": 377.23,
+  "product": "Contraption Z",
+  "quantity": 10,
+  "status": "inactive"
+ },
+ {
+  "order_date": "2022-07-26",
+  "order_id": "ORD-0012-2",
+  "price": 97.88,
+  "product": "Contraption Z",
+  "quantity": 1,
+  "status": "inactive"
+ },
+ {
+  "order_date": "2020-07-28",
+  "order_id": "ORD-0012-3",
+  "price": 395.8,
+  "product": "Thingamajig",
+  "quantity": 3,
+  "status": "active"
+ },
+ {
+  "order_date": "2023-06-10",
+  "order_id": "ORD-0012-4",
+  "price": 107.78,
+  "product": "Module Q",
+  "quantity": 4,
+  "status": "inactive"
+ }
+],
+  "tags": [
+ "premium"
+],
+  "uuid": "usr-000012-4652"
+ },
+ {
+  "age": 42,
+  "balance": 699.74,
+  "created_at": "2024-09-22",
+  "email": "james.brown13@example.com",
+  "first_name": "James",
+  "id": 13,
+  "is_active": true,
+  "last_login": "2025-06-14",
+  "last_name": "Brown",
+  "location": {
+ "city": "Toronto",
+ "country": "Canada",
+ "lat": -44.149949,
+ "lng": 75.162702
+},
+  "orders": [
+ {
+  "order_date": "2023-06-24",
+  "order_id": "ORD-0013-1",
+  "price": 63.11,
+  "product": "Thingamajig",
+  "quantity": 1,
+  "status": "pending"
+ }
+],
+  "tags": [
+ "vip"
+],
+  "uuid": "usr-000013-8149"
+ },
+ {
+  "age": 53,
+  "balance": 6588.51,
+  "created_at": "2023-04-17",
+  "email": "nancy.hernandez14@demo.org",
+  "first_name": "Nancy",
+  "id": 14,
+  "is_active": true,
+  "last_login": "2026-12-06",
+  "last_name": "Hernandez",
+  "location": {
+ "city": "Dubai",
+ "country": "UAE",
+ "lat": -35.302509,
+ "lng": -104.334233
+},
+  "orders": [
+ {
+  "order_date": "2025-07-11",
+  "order_id": "ORD-0014-1",
+  "price": 258.48,
+  "product": "Widget B",
+  "quantity": 5,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2023-11-13",
+  "order_id": "ORD-0014-2",
+  "price": 72.36,
+  "product": "Thingamajig",
+  "quantity": 9,
+  "status": "inactive"
+ }
+],
+  "tags": [
+ "external",
+ "new",
+ "vip"
+],
+  "uuid": "usr-000014-5930"
+ },
+ {
+  "age": 49,
+  "balance": 4645.5,
+  "created_at": "2024-07-08",
+  "email": "elizabeth.taylor15@demo.org",
+  "first_name": "Elizabeth",
+  "id": 15,
+  "is_active": false,
+  "last_login": "2025-12-17",
+  "last_name": "Taylor",
+  "location": {
+ "city": "Dubai",
+ "country": "UAE",
+ "lat": -46.082801,
+ "lng": 56.180884
+},
+  "orders": [
+ {
+  "order_date": "2021-04-05",
+  "order_id": "ORD-0015-1",
+  "price": 339.66,
+  "product": "Widget B",
+  "quantity": 4,
+  "status": "active"
+ },
+ {
+  "order_date": "2024-02-15",
+  "order_id": "ORD-0015-2",
+  "price": 492.12,
+  "product": "Widget A",
+  "quantity": 4,
+  "status": "suspended"
+ }
+],
+  "tags": [
+ "editor"
+],
+  "uuid": "usr-000015-4185"
+ },
+ {
+  "age": 46,
+  "balance": 7064.19,
+  "created_at": "2019-03-08",
+  "email": "sarah.davis16@testmail.io",
+  "first_name": "Sarah",
+  "id": 16,
+  "is_active": true,
+  "last_login": "2026-12-05",
+  "last_name": "Davis",
+  "location": {
+ "city": "Los Angeles",
+ "country": "USA",
+ "lat": 38.438075,
+ "lng": -95.582312
+},
+  "orders": [
+ {
+  "order_date": "2024-10-11",
+  "order_id": "ORD-0016-1",
+  "price": 337.1,
+  "product": "Gadget X",
+  "quantity": 8,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2021-12-28",
+  "order_id": "ORD-0016-2",
+  "price": 228.49,
+  "product": "Contraption Z",
+  "quantity": 9,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2026-11-09",
+  "order_id": "ORD-0016-3",
+  "price": 378.36,
+  "product": "Module Q",
+  "quantity": 5,
+  "status": "suspended"
+ }
+],
+  "tags": [
+ "trial",
+ "vip",
+ "editor"
+],
+  "uuid": "usr-000016-4919"
+ },
+ {
+  "age": 49,
+  "balance": 5643.92,
+  "created_at": "2021-03-20",
+  "email": "robert.wilson17@mail.com",
+  "first_name": "Robert",
+  "id": 17,
+  "is_active": true,
+  "last_login": "2025-07-19",
+  "last_name": "Wilson",
+  "location": {
+ "city": "Mumbai",
+ "country": "India",
+ "lat": -40.871644,
+ "lng": -5.168882
+},
+  "orders": [
+ {
+  "order_date": "2026-07-13",
+  "order_id": "ORD-0017-1",
+  "price": 40.5,
+  "product": "Module Q",
+  "quantity": 7,
+  "status": "active"
+ },
+ {
+  "order_date": "2022-05-25",
+  "order_id": "ORD-0017-2",
+  "price": 12.88,
+  "product": "Contraption Z",
+  "quantity": 8,
+  "status": "suspended"
+ }
+],
+  "tags": [
+ "trial",
+ "internal",
+ "viewer",
+ "vip"
+],
+  "uuid": "usr-000017-7865"
+ },
+ {
+  "age": 66,
+  "balance": 686.18,
+  "created_at": "2023-09-02",
+  "email": "james.williams18@testmail.io",
+  "first_name": "James",
+  "id": 18,
+  "is_active": false,
+  "last_login": "2026-04-21",
+  "last_name": "Williams",
+  "location": {
+ "city": "Mumbai",
+ "country": "India",
+ "lat": -39.913809,
+ "lng": 162.433483
+},
+  "orders": [
+ {
+  "order_date": "2023-06-07",
+  "order_id": "ORD-0018-1",
+  "price": 34.63,
+  "product": "Module Q",
+  "quantity": 3,
+  "status": "suspended"
+ }
+],
+  "tags": [
+ "premium",
+ "editor",
+ "external",
+ "admin"
+],
+  "uuid": "usr-000018-6355"
+ },
+ {
+  "age": 62,
+  "balance": 6773.47,
+  "created_at": "2020-02-19",
+  "email": "christopher.johnson19@demo.org",
+  "first_name": "Christopher",
+  "id": 19,
+  "is_active": false,
+  "last_login": "2025-05-19",
+  "last_name": "Johnson",
+  "location": {
+ "city": "New York",
+ "country": "USA",
+ "lat": 48.041658,
+ "lng": -119.595908
+},
+  "orders": [
+ {
+  "order_date": "2021-03-16",
+  "order_id": "ORD-0019-1",
+  "price": 314.44,
+  "product": "Gizmo Pro",
+  "quantity": 1,
+  "status": "active"
+ }
+],
+  "tags": [
+ "viewer"
+],
+  "uuid": "usr-000019-4571"
+ },
+ {
+  "age": 62,
+  "balance": 689.57,
+  "created_at": "2024-01-12",
+  "email": "richard.gonzalez20@example.com",
+  "first_name": "Richard",
+  "id": 20,
+  "is_active": false,
+  "last_login": "2026-11-12",
+  "last_name": "Gonzalez",
+  "location": {
+ "city": "Berlin",
+ "country": "Germany",
+ "lat": 63.052783,
+ "lng": 36.148181
+},
+  "orders": [],
+  "tags": [
+ "new"
+],
+  "uuid": "usr-000020-4978"
+ },
+ {
+  "age": 74,
+  "balance": 2583.52,
+  "created_at": "2020-03-16",
+  "email": "christopher.hernandez21@testmail.io",
+  "first_name": "Christopher",
+  "id": 21,
+  "is_active": false,
+  "last_login": "2025-06-26",
+  "last_name": "Hernandez",
+  "location": {
+ "city": "New York",
+ "country": "USA",
+ "lat": -46.104581,
+ "lng": -12.704952
+},
+  "orders": [
+ {
+  "order_date": "2022-11-27",
+  "order_id": "ORD-0021-1",
+  "price": 222.42,
+  "product": "Module Q",
+  "quantity": 2,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2024-11-09",
+  "order_id": "ORD-0021-2",
+  "price": 96.3,
+  "product": "Gadget X",
+  "quantity": 7,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2024-05-11",
+  "order_id": "ORD-0021-3",
+  "price": 414.6,
+  "product": "Module Q",
+  "quantity": 7,
+  "status": "inactive"
+ }
+],
+  "tags": [
+ "trial",
+ "admin",
+ "external",
+ "internal"
+],
+  "uuid": "usr-000021-2419"
+ },
+ {
+  "age": 62,
+  "balance": 7386.05,
+  "created_at": "2020-02-24",
+  "email": "david.martin22@testmail.io",
+  "first_name": "David",
+  "id": 22,
+  "is_active": false,
+  "last_login": "2025-04-07",
+  "last_name": "Martin",
+  "location": {
+ "city": "Toronto",
+ "country": "Canada",
+ "lat": -41.235043,
+ "lng": -89.494677
+},
+  "orders": [
+ {
+  "order_date": "2020-04-24",
+  "order_id": "ORD-0022-1",
+  "price": 474.54,
+  "product": "Widget A",
+  "quantity": 9,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2025-08-21",
+  "order_id": "ORD-0022-2",
+  "price": 381.49,
+  "product": "Module Q",
+  "quantity": 9,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2021-07-23",
+  "order_id": "ORD-0022-3",
+  "price": 55.59,
+  "product": "Module Q",
+  "quantity": 1,
+  "status": "inactive"
+ },
+ {
+  "order_date": "2024-09-12",
+  "order_id": "ORD-0022-4",
+  "price": 190.81,
+  "product": "Thingamajig",
+  "quantity": 10,
+  "status": "suspended"
+ }
+],
+  "tags": [
+ "beta"
+],
+  "uuid": "usr-000022-6419"
+ },
+ {
+  "age": 70,
+  "balance": 5580.73,
+  "created_at": "2019-10-10",
+  "email": "david.jackson23@example.com",
+  "first_name": "David",
+  "id": 23,
+  "is_active": true,
+  "last_login": "2025-04-04",
+  "last_name": "Jackson",
+  "location": {
+ "city": "Paris",
+ "country": "France",
+ "lat": -17.87266,
+ "lng": -153.330419
+},
+  "orders": [
+ {
+  "order_date": "2022-04-12",
+  "order_id": "ORD-0023-1",
+  "price": 417.98,
+  "product": "Thingamajig",
+  "quantity": 2,
+  "status": "inactive"
+ },
+ {
+  "order_date": "2021-05-02",
+  "order_id": "ORD-0023-2",
+  "price": 356.92,
+  "product": "Thingamajig",
+  "quantity": 1,
+  "status": "active"
+ },
+ {
+  "order_date": "2026-08-04",
+  "order_id": "ORD-0023-3",
+  "price": 322.55,
+  "product": "Thingamajig",
+  "quantity": 3,
+  "status": "active"
+ },
+ {
+  "order_date": "2022-03-02",
+  "order_id": "ORD-0023-4",
+  "price": 244.56,
+  "product": "Thingamajig",
+  "quantity": 8,
+  "status": "pending"
+ }
+],
+  "tags": [
+ "viewer"
+],
+  "uuid": "usr-000023-8827"
+ },
+ {
+  "age": 36,
+  "balance": 9084.11,
+  "created_at": "2021-02-18",
+  "email": "susan.martin24@mail.com",
+  "first_name": "Susan",
+  "id": 24,
+  "is_active": false,
+  "last_login": "2025-11-05",
+  "last_name": "Martin",
+  "location": {
+ "city": "Dubai",
+ "country": "UAE",
+ "lat": 36.53776,
+ "lng": -16.548722
+},
+  "orders": [
+ {
+  "order_date": "2023-05-28",
+  "order_id": "ORD-0024-1",
+  "price": 196.38,
+  "product": "Gizmo Pro",
+  "quantity": 9,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2024-12-04",
+  "order_id": "ORD-0024-2",
+  "price": 314.29,
+  "product": "Thingamajig",
+  "quantity": 10,
+  "status": "inactive"
+ },
+ {
+  "order_date": "2021-04-06",
+  "order_id": "ORD-0024-3",
+  "price": 333.6,
+  "product": "Gizmo Pro",
+  "quantity": 5,
+  "status": "active"
+ },
+ {
+  "order_date": "2025-10-16",
+  "order_id": "ORD-0024-4",
+  "price": 210.16,
+  "product": "Gadget X",
+  "quantity": 1,
+  "status": "pending"
+ }
+],
+  "tags": [
+ "premium",
+ "beta"
+],
+  "uuid": "usr-000024-1534"
+ },
+ {
+  "age": 56,
+  "balance": 3223.22,
+  "created_at": "2021-02-20",
+  "email": "anthony.jones25@testmail.io",
+  "first_name": "Anthony",
+  "id": 25,
+  "is_active": false,
+  "last_login": "2025-07-24",
+  "last_name": "Jones",
+  "location": {
+ "city": "Los Angeles",
+ "country": "USA",
+ "lat": -10.952379,
+ "lng": -11.268731
+},
+  "orders": [],
+  "tags": [
+ "internal",
+ "premium",
+ "external"
+],
+  "uuid": "usr-000025-3718"
+ },
+ {
+  "age": 55,
+  "balance": 8577.33,
+  "created_at": "2020-07-11",
+  "email": "david.smith26@mail.com",
+  "first_name": "David",
+  "id": 26,
+  "is_active": false,
+  "last_login": "2026-11-04",
+  "last_name": "Smith",
+  "location": {
+ "city": "Los Angeles",
+ "country": "USA",
+ "lat": 24.26125,
+ "lng": -2.978711
+},
+  "orders": [
+ {
+  "order_date": "2026-03-16",
+  "order_id": "ORD-0026-1",
+  "price": 292.35,
+  "product": "Widget A",
+  "quantity": 5,
+  "status": "suspended"
+ }
+],
+  "tags": [
+ "external"
+],
+  "uuid": "usr-000026-5557"
+ },
+ {
+  "age": 30,
+  "balance": 9731.47,
+  "created_at": "2019-05-15",
+  "email": "william.wilson27@example.com",
+  "first_name": "William",
+  "id": 27,
+  "is_active": false,
+  "last_login": "2026-02-01",
+  "last_name": "Wilson",
+  "location": {
+ "city": "Tokyo",
+ "country": "Japan",
+ "lat": 22.074097,
+ "lng": -0.542483
+},
+  "orders": [
+ {
+  "order_date": "2020-06-09",
+  "order_id": "ORD-0027-1",
+  "price": 27.97,
+  "product": "Contraption Z",
+  "quantity": 9,
+  "status": "pending"
+ },
+ {
+  "order_date": "2026-01-22",
+  "order_id": "ORD-0027-2",
+  "price": 433.8,
+  "product": "Widget B",
+  "quantity": 7,
+  "status": "suspended"
+ }
+],
+  "tags": [
+ "admin",
+ "beta",
+ "premium",
+ "external"
+],
+  "uuid": "usr-000027-7770"
+ },
+ {
+  "age": 48,
+  "balance": 7900.06,
+  "created_at": "2023-03-28",
+  "email": "karen.davis28@demo.org",
+  "first_name": "Karen",
+  "id": 28,
+  "is_active": true,
+  "last_login": "2025-05-25",
+  "last_name": "Davis",
+  "location": {
+ "city": "London",
+ "country": "UK",
+ "lat": -7.778435,
+ "lng": -127.928891
+},
+  "orders": [
+ {
+  "order_date": "2021-02-15",
+  "order_id": "ORD-0028-1",
+  "price": 209.91,
+  "product": "Widget A",
+  "quantity": 9,
+  "status": "active"
+ },
+ {
+  "order_date": "2022-09-23",
+  "order_id": "ORD-0028-2",
+  "price": 466.99,
+  "product": "Gadget X",
+  "quantity": 8,
+  "status": "pending"
+ }
+],
+  "tags": [
+ "new",
+ "vip"
+],
+  "uuid": "usr-000028-7807"
+ },
+ {
+  "age": 73,
+  "balance": 7923.94,
+  "created_at": "2023-08-23",
+  "email": "susan.hernandez29@testmail.io",
+  "first_name": "Susan",
+  "id": 29,
+  "is_active": true,
+  "last_login": "2026-07-22",
+  "last_name": "Hernandez",
+  "location": {
+ "city": "Paris",
+ "country": "France",
+ "lat": 86.539434,
+ "lng": -94.030004
+},
+  "orders": [
+ {
+  "order_date": "2026-10-19",
+  "order_id": "ORD-0029-1",
+  "price": 365.75,
+  "product": "Widget A",
+  "quantity": 5,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2022-06-18",
+  "order_id": "ORD-0029-2",
+  "price": 273.89,
+  "product": "Gadget X",
+  "quantity": 8,
+  "status": "suspended"
+ }
+],
+  "tags": [
+ "beta",
+ "internal",
+ "admin",
+ "viewer"
+],
+  "uuid": "usr-000029-8460"
+ },
+ {
+  "age": 73,
+  "balance": 6232.59,
+  "created_at": "2023-03-03",
+  "email": "christopher.jones30@testmail.io",
+  "first_name": "Christopher",
+  "id": 30,
+  "is_active": true,
+  "last_login": "2026-05-11",
+  "last_name": "Jones",
+  "location": {
+ "city": "Tokyo",
+ "country": "Japan",
+ "lat": 67.354267,
+ "lng": -21.489764
+},
+  "orders": [],
+  "tags": [
+ "admin",
+ "viewer",
+ "internal",
+ "external"
+],
+  "uuid": "usr-000030-3068"
+ },
+ {
+  "age": 23,
+  "balance": 8989.09,
+  "created_at": "2023-05-15",
+  "email": "richard.williams31@mail.com",
+  "first_name": "Richard",
+  "id": 31,
+  "is_active": false,
+  "last_login": "2026-11-01",
+  "last_name": "Williams",
+  "location": {
+ "city": "Sydney",
+ "country": "Australia",
+ "lat": 21.547866,
+ "lng": -93.301275
+},
+  "orders": [
+ {
+  "order_date": "2026-08-28",
+  "order_id": "ORD-0031-1",
+  "price": 317.12,
+  "product": "Contraption Z",
+  "quantity": 6,
+  "status": "active"
+ },
+ {
+  "order_date": "2022-04-24",
+  "order_id": "ORD-0031-2",
+  "price": 319.26,
+  "product": "Widget B",
+  "quantity": 4,
+  "status": "active"
+ },
+ {
+  "order_date": "2025-02-15",
+  "order_id": "ORD-0031-3",
+  "price": 382.57,
+  "product": "Contraption Z",
+  "quantity": 2,
+  "status": "inactive"
+ },
+ {
+  "order_date": "2026-01-10",
+  "order_id": "ORD-0031-4",
+  "price": 32.53,
+  "product": "Thingamajig",
+  "quantity": 1,
+  "status": "pending"
+ },
+ {
+  "order_date": "2024-07-19",
+  "order_id": "ORD-0031-5",
+  "price": 81.32,
+  "product": "Doohickey",
+  "quantity": 7,
+  "status": "inactive"
+ }
+],
+  "tags": [
+ "beta",
+ "external"
+],
+  "uuid": "usr-000031-3785"
+ },
+ {
+  "age": 72,
+  "balance": 6582.3,
+  "created_at": "2020-10-10",
+  "email": "joseph.martinez32@demo.org",
+  "first_name": "Joseph",
+  "id": 32,
+  "is_active": false,
+  "last_login": "2026-01-27",
+  "last_name": "Martinez",
+  "location": {
+ "city": "Paris",
+ "country": "France",
+ "lat": -54.14094,
+ "lng": -41.51043
+},
+  "orders": [
+ {
+  "order_date": "2024-05-21",
+  "order_id": "ORD-0032-1",
+  "price": 473.16,
+  "product": "Widget B",
+  "quantity": 8,
+  "status": "suspended"
+ }
+],
+  "tags": [
+ "editor",
+ "beta",
+ "internal",
+ "premium"
+],
+  "uuid": "usr-000032-5097"
+ },
+ {
+  "age": 70,
+  "balance": 903.03,
+  "created_at": "2019-04-28",
+  "email": "david.smith33@testmail.io",
+  "first_name": "David",
+  "id": 33,
+  "is_active": false,
+  "last_login": "2026-09-12",
+  "last_name": "Smith",
+  "location": {
+ "city": "Dubai",
+ "country": "UAE",
+ "lat": 84.129134,
+ "lng": -73.749078
+},
+  "orders": [
+ {
+  "order_date": "2026-05-25",
+  "order_id": "ORD-0033-1",
+  "price": 375.12,
+  "product": "Widget A",
+  "quantity": 10,
+  "status": "inactive"
+ },
+ {
+  "order_date": "2024-05-22",
+  "order_id": "ORD-0033-2",
+  "price": 321.93,
+  "product": "Doohickey",
+  "quantity": 4,
+  "status": "inactive"
+ },
+ {
+  "order_date": "2023-01-19",
+  "order_id": "ORD-0033-3",
+  "price": 161.37,
+  "product": "Widget B",
+  "quantity": 1,
+  "status": "pending"
+ },
+ {
+  "order_date": "2022-12-14",
+  "order_id": "ORD-0033-4",
+  "price": 455.71,
+  "product": "Gadget X",
+  "quantity": 2,
+  "status": "inactive"
+ },
+ {
+  "order_date": "2022-09-17",
+  "order_id": "ORD-0033-5",
+  "price": 395.38,
+  "product": "Gizmo Pro",
+  "quantity": 3,
+  "status": "pending"
+ }
+],
+  "tags": [
+ "editor",
+ "external",
+ "new"
+],
+  "uuid": "usr-000033-3695"
+ },
+ {
+  "age": 74,
+  "balance": 6902.81,
+  "created_at": "2018-08-20",
+  "email": "richard.smith34@mail.com",
+  "first_name": "Richard",
+  "id": 34,
+  "is_active": true,
+  "last_login": "2026-05-02",
+  "last_name": "Smith",
+  "location": {
+ "city": "Toronto",
+ "country": "Canada",
+ "lat": -20.04375,
+ "lng": -46.435854
+},
+  "orders": [
+ {
+  "order_date": "2025-11-09",
+  "order_id": "ORD-0034-1",
+  "price": 190.6,
+  "product": "Widget B",
+  "quantity": 8,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2023-01-20",
+  "order_id": "ORD-0034-2",
+  "price": 340.66,
+  "product": "Doohickey",
+  "quantity": 2,
+  "status": "pending"
+ },
+ {
+  "order_date": "2023-12-10",
+  "order_id": "ORD-0034-3",
+  "price": 321.34,
+  "product": "Gizmo Pro",
+  "quantity": 2,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2020-05-16",
+  "order_id": "ORD-0034-4",
+  "price": 32.21,
+  "product": "Widget B",
+  "quantity": 3,
+  "status": "active"
+ }
+],
+  "tags": [
+ "new",
+ "viewer",
+ "internal",
+ "trial"
+],
+  "uuid": "usr-000034-2592"
+ },
+ {
+  "age": 35,
+  "balance": 686.1,
+  "created_at": "2024-06-08",
+  "email": "michael.anderson35@demo.org",
+  "first_name": "Michael",
+  "id": 35,
+  "is_active": true,
+  "last_login": "2025-10-07",
+  "last_name": "Anderson",
+  "location": {
+ "city": "Tokyo",
+ "country": "Japan",
+ "lat": 84.277238,
+ "lng": 161.643884
+},
+  "orders": [
+ {
+  "order_date": "2022-09-21",
+  "order_id": "ORD-0035-1",
+  "price": 490.64,
+  "product": "Doohickey",
+  "quantity": 2,
+  "status": "pending"
+ }
+],
+  "tags": [
+ "editor",
+ "beta",
+ "admin",
+ "external"
+],
+  "uuid": "usr-000035-1992"
+ },
+ {
+  "age": 46,
+  "balance": 9640.26,
+  "created_at": "2023-11-17",
+  "email": "matthew.moore36@demo.org",
+  "first_name": "Matthew",
+  "id": 36,
+  "is_active": false,
+  "last_login": "2026-08-21",
+  "last_name": "Moore",
+  "location": {
+ "city": "Berlin",
+ "country": "Germany",
+ "lat": 2.382832,
+ "lng": -140.740556
+},
+  "orders": [
+ {
+  "order_date": "2021-10-01",
+  "order_id": "ORD-0036-1",
+  "price": 170.98,
+  "product": "Gizmo Pro",
+  "quantity": 4,
+  "status": "pending"
+ },
+ {
+  "order_date": "2026-03-04",
+  "order_id": "ORD-0036-2",
+  "price": 274.7,
+  "product": "Gadget X",
+  "quantity": 3,
+  "status": "active"
+ },
+ {
+  "order_date": "2026-04-19",
+  "order_id": "ORD-0036-3",
+  "price": 185.53,
+  "product": "Gadget X",
+  "quantity": 1,
+  "status": "pending"
+ },
+ {
+  "order_date": "2021-12-14",
+  "order_id": "ORD-0036-4",
+  "price": 140.02,
+  "product": "Widget A",
+  "quantity": 3,
+  "status": "active"
+ }
+],
+  "tags": [
+ "new",
+ "admin"
+],
+  "uuid": "usr-000036-2041"
+ },
+ {
+  "age": 72,
+  "balance": 2548.9,
+  "created_at": "2023-02-11",
+  "email": "mary.thomas37@example.com",
+  "first_name": "Mary",
+  "id": 37,
+  "is_active": true,
+  "last_login": "2026-06-22",
+  "last_name": "Thomas",
+  "location": {
+ "city": "Mumbai",
+ "country": "India",
+ "lat": -12.587411,
+ "lng": 139.712768
+},
+  "orders": [
+ {
+  "order_date": "2023-02-03",
+  "order_id": "ORD-0037-1",
+  "price": 359.07,
+  "product": "Widget B",
+  "quantity": 8,
+  "status": "pending"
+ },
+ {
+  "order_date": "2024-11-19",
+  "order_id": "ORD-0037-2",
+  "price": 71.82,
+  "product": "Gadget X",
+  "quantity": 2,
+  "status": "pending"
+ },
+ {
+  "order_date": "2023-09-20",
+  "order_id": "ORD-0037-3",
+  "price": 269.96,
+  "product": "Contraption Z",
+  "quantity": 10,
+  "status": "suspended"
+ }
+],
+  "tags": [
+ "trial",
+ "external",
+ "internal",
+ "beta"
+],
+  "uuid": "usr-000037-2624"
+ },
+ {
+  "age": 45,
+  "balance": 4108.09,
+  "created_at": "2022-09-18",
+  "email": "john.thomas38@example.com",
+  "first_name": "John",
+  "id": 38,
+  "is_active": true,
+  "last_login": "2026-11-04",
+  "last_name": "Thomas",
+  "location": {
+ "city": "Los Angeles",
+ "country": "USA",
+ "lat": 44.026014,
+ "lng": -45.847131
+},
+  "orders": [],
+  "tags": [
+ "vip",
+ "admin"
+],
+  "uuid": "usr-000038-2398"
+ },
+ {
+  "age": 72,
+  "balance": 8698.63,
+  "created_at": "2023-05-11",
+  "email": "margaret.wilson39@demo.org",
+  "first_name": "Margaret",
+  "id": 39,
+  "is_active": true,
+  "last_login": "2026-01-06",
+  "last_name": "Wilson",
+  "location": {
+ "city": "New York",
+ "country": "USA",
+ "lat": 19.619085,
+ "lng": 56.819242
+},
+  "orders": [
+ {
+  "order_date": "2024-04-05",
+  "order_id": "ORD-0039-1",
+  "price": 60.75,
+  "product": "Thingamajig",
+  "quantity": 6,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2024-06-04",
+  "order_id": "ORD-0039-2",
+  "price": 181.55,
+  "product": "Gizmo Pro",
+  "quantity": 2,
+  "status": "pending"
+ }
+],
+  "tags": [
+ "admin",
+ "viewer",
+ "premium"
+],
+  "uuid": "usr-000039-4705"
+ },
+ {
+  "age": 41,
+  "balance": 2721.03,
+  "created_at": "2019-03-25",
+  "email": "charles.gonzalez40@mail.com",
+  "first_name": "Charles",
+  "id": 40,
+  "is_active": false,
+  "last_login": "2025-11-03",
+  "last_name": "Gonzalez",
+  "location": {
+ "city": "Los Angeles",
+ "country": "USA",
+ "lat": 39.887274,
+ "lng": 99.660823
+},
+  "orders": [
+ {
+  "order_date": "2021-07-14",
+  "order_id": "ORD-0040-1",
+  "price": 375.58,
+  "product": "Widget A",
+  "quantity": 2,
+  "status": "suspended"
+ }
+],
+  "tags": [
+ "admin"
+],
+  "uuid": "usr-000040-6585"
+ },
+ {
+  "age": 49,
+  "balance": 8617.64,
+  "created_at": "2024-11-26",
+  "email": "nancy.wilson41@example.com",
+  "first_name": "Nancy",
+  "id": 41,
+  "is_active": false,
+  "last_login": "2026-02-13",
+  "last_name": "Wilson",
+  "location": {
+ "city": "Tokyo",
+ "country": "Japan",
+ "lat": -58.374936,
+ "lng": -43.12532
+},
+  "orders": [
+ {
+  "order_date": "2026-09-04",
+  "order_id": "ORD-0041-1",
+  "price": 143.84,
+  "product": "Module Q",
+  "quantity": 7,
+  "status": "pending"
+ },
+ {
+  "order_date": "2025-10-16",
+  "order_id": "ORD-0041-2",
+  "price": 148.78,
+  "product": "Contraption Z",
+  "quantity": 2,
+  "status": "pending"
+ },
+ {
+  "order_date": "2024-01-01",
+  "order_id": "ORD-0041-3",
+  "price": 203.67,
+  "product": "Widget A",
+  "quantity": 4,
+  "status": "inactive"
+ },
+ {
+  "order_date": "2026-05-10",
+  "order_id": "ORD-0041-4",
+  "price": 385.99,
+  "product": "Thingamajig",
+  "quantity": 4,
+  "status": "pending"
+ }
+],
+  "tags": [
+ "vip",
+ "new"
+],
+  "uuid": "usr-000041-2965"
+ },
+ {
+  "age": 43,
+  "balance": 7273.79,
+  "created_at": "2023-02-17",
+  "email": "mary.wilson42@example.com",
+  "first_name": "Mary",
+  "id": 42,
+  "is_active": false,
+  "last_login": "2025-06-12",
+  "last_name": "Wilson",
+  "location": {
+ "city": "New York",
+ "country": "USA",
+ "lat": 44.244869,
+ "lng": -100.234059
+},
+  "orders": [
+ {
+  "order_date": "2024-07-23",
+  "order_id": "ORD-0042-1",
+  "price": 292.11,
+  "product": "Widget B",
+  "quantity": 6,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2022-03-26",
+  "order_id": "ORD-0042-2",
+  "price": 208.46,
+  "product": "Thingamajig",
+  "quantity": 2,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2020-04-14",
+  "order_id": "ORD-0042-3",
+  "price": 223.98,
+  "product": "Doohickey",
+  "quantity": 2,
+  "status": "suspended"
+ }
+],
+  "tags": [
+ "editor",
+ "vip"
+],
+  "uuid": "usr-000042-9584"
+ },
+ {
+  "age": 30,
+  "balance": 5794.68,
+  "created_at": "2024-11-16",
+  "email": "anthony.jones43@testmail.io",
+  "first_name": "Anthony",
+  "id": 43,
+  "is_active": true,
+  "last_login": "2026-10-25",
+  "last_name": "Jones",
+  "location": {
+ "city": "Berlin",
+ "country": "Germany",
+ "lat": 18.431817,
+ "lng": 93.677506
+},
+  "orders": [],
+  "tags": [
+ "viewer"
+],
+  "uuid": "usr-000043-3399"
+ },
+ {
+  "age": 21,
+  "balance": 9542.31,
+  "created_at": "2022-09-13",
+  "email": "nancy.jackson44@example.com",
+  "first_name": "Nancy",
+  "id": 44,
+  "is_active": false,
+  "last_login": "2026-10-18",
+  "last_name": "Jackson",
+  "location": {
+ "city": "Dubai",
+ "country": "UAE",
+ "lat": 59.705394,
+ "lng": -152.37684
+},
+  "orders": [
+ {
+  "order_date": "2023-08-21",
+  "order_id": "ORD-0044-1",
+  "price": 225.47,
+  "product": "Doohickey",
+  "quantity": 3,
+  "status": "pending"
+ },
+ {
+  "order_date": "2024-02-10",
+  "order_id": "ORD-0044-2",
+  "price": 37.51,
+  "product": "Thingamajig",
+  "quantity": 10,
+  "status": "suspended"
+ }
+],
+  "tags": [
+ "new"
+],
+  "uuid": "usr-000044-8404"
+ },
+ {
+  "age": 22,
+  "balance": 9676.97,
+  "created_at": "2018-10-22",
+  "email": "lisa.johnson45@testmail.io",
+  "first_name": "Lisa",
+  "id": 45,
+  "is_active": false,
+  "last_login": "2025-06-10",
+  "last_name": "Johnson",
+  "location": {
+ "city": "Tokyo",
+ "country": "Japan",
+ "lat": -72.988929,
+ "lng": 64.216564
+},
+  "orders": [
+ {
+  "order_date": "2024-03-02",
+  "order_id": "ORD-0045-1",
+  "price": 306.44,
+  "product": "Gizmo Pro",
+  "quantity": 6,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2020-09-21",
+  "order_id": "ORD-0045-2",
+  "price": 491.36,
+  "product": "Widget B",
+  "quantity": 6,
+  "status": "inactive"
+ },
+ {
+  "order_date": "2023-09-17",
+  "order_id": "ORD-0045-3",
+  "price": 356.72,
+  "product": "Widget A",
+  "quantity": 4,
+  "status": "inactive"
+ },
+ {
+  "order_date": "2023-07-25",
+  "order_id": "ORD-0045-4",
+  "price": 459.78,
+  "product": "Doohickey",
+  "quantity": 6,
+  "status": "pending"
+ }
+],
+  "tags": [
+ "premium",
+ "viewer",
+ "trial"
+],
+  "uuid": "usr-000045-1857"
+ },
+ {
+  "age": 56,
+  "balance": 2849.28,
+  "created_at": "2021-06-22",
+  "email": "daniel.gonzalez46@mail.com",
+  "first_name": "Daniel",
+  "id": 46,
+  "is_active": false,
+  "last_login": "2025-08-20",
+  "last_name": "Gonzalez",
+  "location": {
+ "city": "London",
+ "country": "UK",
+ "lat": -62.234503,
+ "lng": -114.895452
+},
+  "orders": [
+ {
+  "order_date": "2025-06-27",
+  "order_id": "ORD-0046-1",
+  "price": 283.86,
+  "product": "Widget B",
+  "quantity": 5,
+  "status": "inactive"
+ },
+ {
+  "order_date": "2020-06-10",
+  "order_id": "ORD-0046-2",
+  "price": 259.15,
+  "product": "Widget B",
+  "quantity": 7,
+  "status": "inactive"
+ },
+ {
+  "order_date": "2023-04-08",
+  "order_id": "ORD-0046-3",
+  "price": 474.35,
+  "product": "Gizmo Pro",
+  "quantity": 6,
+  "status": "inactive"
+ },
+ {
+  "order_date": "2026-02-17",
+  "order_id": "ORD-0046-4",
+  "price": 154.93,
+  "product": "Gadget X",
+  "quantity": 2,
+  "status": "active"
+ }
+],
+  "tags": [
+ "external",
+ "admin"
+],
+  "uuid": "usr-000046-6517"
+ },
+ {
+  "age": 66,
+  "balance": 3964.54,
+  "created_at": "2019-08-12",
+  "email": "lisa.anderson47@example.com",
+  "first_name": "Lisa",
+  "id": 47,
+  "is_active": true,
+  "last_login": "2025-07-02",
+  "last_name": "Anderson",
+  "location": {
+ "city": "Berlin",
+ "country": "Germany",
+ "lat": -40.897566,
+ "lng": 145.910235
+},
+  "orders": [
+ {
+  "order_date": "2026-08-27",
+  "order_id": "ORD-0047-1",
+  "price": 483.13,
+  "product": "Gizmo Pro",
+  "quantity": 5,
+  "status": "inactive"
+ },
+ {
+  "order_date": "2023-05-25",
+  "order_id": "ORD-0047-2",
+  "price": 492.37,
+  "product": "Doohickey",
+  "quantity": 10,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2026-10-05",
+  "order_id": "ORD-0047-3",
+  "price": 410.27,
+  "product": "Contraption Z",
+  "quantity": 3,
+  "status": "pending"
+ },
+ {
+  "order_date": "2024-02-23",
+  "order_id": "ORD-0047-4",
+  "price": 438.31,
+  "product": "Widget A",
+  "quantity": 8,
+  "status": "active"
+ }
+],
+  "tags": [
+ "internal",
+ "editor"
+],
+  "uuid": "usr-000047-5670"
+ },
+ {
+  "age": 19,
+  "balance": 4486.01,
+  "created_at": "2020-08-23",
+  "email": "barbara.davis48@mail.com",
+  "first_name": "Barbara",
+  "id": 48,
+  "is_active": false,
+  "last_login": "2025-12-16",
+  "last_name": "Davis",
+  "location": {
+ "city": "Mumbai",
+ "country": "India",
+ "lat": 77.548663,
+ "lng": 122.103464
+},
+  "orders": [],
+  "tags": [
+ "viewer",
+ "new",
+ "admin"
+],
+  "uuid": "usr-000048-7142"
+ },
+ {
+  "age": 25,
+  "balance": 4165.68,
+  "created_at": "2021-01-20",
+  "email": "james.williams49@example.com",
+  "first_name": "James",
+  "id": 49,
+  "is_active": false,
+  "last_login": "2026-04-19",
+  "last_name": "Williams",
+  "location": {
+ "city": "New York",
+ "country": "USA",
+ "lat": 17.413028,
+ "lng": -174.083273
+},
+  "orders": [
+ {
+  "order_date": "2025-10-17",
+  "order_id": "ORD-0049-1",
+  "price": 278.9,
+  "product": "Gizmo Pro",
+  "quantity": 3,
+  "status": "suspended"
+ },
+ {
+  "order_date": "2020-01-08",
+  "order_id": "ORD-0049-2",
+  "price": 126.43,
+  "product": "Widget B",
+  "quantity": 5,
+  "status": "suspended"
+ }
+],
+  "tags": [
+ "viewer",
+ "premium"
+],
+  "uuid": "usr-000049-8489"
+ },
+ {
+  "age": 40,
+  "balance": 9808.19,
+  "created_at": "2022-06-27",
+  "email": "nancy.williams50@example.com",
+  "first_name": "Nancy",
+  "id": 50,
+  "is_active": true,
+  "last_login": "2025-11-15",
+  "last_name": "Williams",
+  "location": {
+ "city": "Paris",
+ "country": "France",
+ "lat": 41.929384,
+ "lng": 46.172506
+},
+  "orders": [
+ {
+  "order_date": "2026-09-18",
+  "order_id": "ORD-0050-1",
+  "price": 276.59,
+  "product": "Widget B",
+  "quantity": 9,
+  "status": "active"
+ },
+ {
+  "order_date": "2023-06-09",
+  "order_id": "ORD-0050-2",
+  "price": 31.32,
+  "product": "Contraption Z",
+  "quantity": 8,
+  "status": "active"
+ }
+],
+  "tags": [
+ "viewer",
+ "admin",
+ "trial"
+],
+  "uuid": "usr-000050-6850"
+ }
+]
+   },
+   "isSecret": false,
+   "canReset": false
+  },
+  "isFunction": false,
+  "functionName": ""
+ }
+}

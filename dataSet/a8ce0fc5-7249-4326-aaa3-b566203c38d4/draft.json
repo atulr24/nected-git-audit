@@ -1,0 +1,78 @@
+{
+ "entityType": "dataSet",
+ "category": "dataSet",
+ "data": {
+  "createdAt": "2026-08-26T05:21:04.659Z",
+  "updatedAt": "2026-08-26T05:21:24.433982Z",
+  "isDeleted": false,
+  "testedAt": "2026-08-26T05:21:24.433Z",
+  "publishedAt": "0001-01-01T00:00:00Z",
+  "entityId": "a8ce0fc5-7249-4326-aaa3-b566203c38d4",
+  "version": "draft",
+  "name": "snf",
+  "commitId": "commit-d822db6e-53f4-42a9-b2b1-b090de8e4aa3",
+  "status": "tested",
+  "lastVersion": "",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Created at 2026-08-26 05:21:04",
+   "timeStamp": "2026-08-26T05:21:04.659994226Z"
+  },
+  "fields": {
+   "DEPT_ID": {
+ "ColumnName": "DEPT_ID",
+ "DataType": "numeric",
+ "Order": 1,
+ "ExecutedValue": 101
+},
+   "DEPT_NAME": {
+ "ColumnName": "DEPT_NAME",
+ "DataType": "string",
+ "Order": 2,
+ "ExecutedValue": "Engineering"
+},
+   "LOCATION": {
+ "ColumnName": "LOCATION",
+ "DataType": "string",
+ "Order": 3,
+ "ExecutedValue": "Gurgaon"
+},
+   "MANAGER_ID": {
+ "ColumnName": "MANAGER_ID",
+ "DataType": "numeric",
+ "Order": 4,
+ "ExecutedValue": 1
+}
+  },
+  "description": "",
+  "query": "select * from public.departments",
+  "params": {
+   
+  },
+  "connectorId": "97821d4a-ea49-4bf5-a27f-1d83fccccebb",
+  "isDemo": false,
+  "settings": {
+   "durationUnit": "m",
+   "rowLimit": 1000,
+   "durationValue": 5,
+   "cacheEnabled": true,
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "in"
+  }
+ },
+ "dependencies": [
+  {
+   "isDeleted": false,
+   "createdAt": "2026-08-26T05:21:04.675061Z",
+   "updatedAt": "2026-08-26T05:21:21.440635Z",
+   "entityCommitId": "commit-d822db6e-53f4-42a9-b2b1-b090de8e4aa3",
+   "entityType": "dataSet",
+   "entityId": "a8ce0fc5-7249-4326-aaa3-b566203c38d4",
+   "entityVersion": "draft",
+   "entityNodeId": "connector",
+   "dependencyType": "connector",
+   "dependencyId": "97821d4a-ea49-4bf5-a27f-1d83fccccebb",
+   "dependencyVersion": "live"
+  }
+ ]
+}
