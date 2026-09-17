@@ -1,0 +1,77 @@
+{
+ "entityType": "testcase",
+ "category": "rule",
+ "isList": true,
+ "dataList": [
+  {
+   "createdAt": "2026-09-15T17:03:49.016Z",
+   "updatedAt": "2026-09-15T17:03:49.016Z",
+   "isDeleted": false,
+   "entityId": "7e3343b9-15d1-48a0-8e18-d0a0bbf6b74b",
+   "name": "Test 2",
+   "input": {
+    "ci": {
+     "Age": {
+ "value": 29
+},
+     "Name": {
+ "value": "Atul"
+}
+    }
+   },
+   "output": {
+    "action": null,
+    "additionalOutput": {
+ 
+},
+    "output": [
+ {
+  "defaultOutputData": false,
+  "result_1": "Row2",
+  "rowError": null
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null
+ }
+]
+   }
+  },
+  {
+   "createdAt": "2026-09-15T17:03:39.893Z",
+   "updatedAt": "2026-09-15T17:03:39.893Z",
+   "isDeleted": false,
+   "entityId": "f449e37f-0f20-4ec2-adf8-988b053b93bc",
+   "name": "Test 1",
+   "input": {
+    "ci": {
+     "Age": {
+ "value": 29
+},
+     "Name": {
+ "value": "Atul"
+}
+    }
+   },
+   "output": {
+    "action": null,
+    "additionalOutput": {
+ 
+},
+    "output": [
+ {
+  "defaultOutputData": true,
+  "result_1": "Row1",
+  "rowError": null,
+  "rowId": 1
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 2
+ }
+]
+   }
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "entityType": "connector",
+ "category": "slack",
+ "data": {
+  "createdAt": "2026-09-14T09:07:43.708Z",
+  "updatedAt": "2026-09-14T09:07:43.708Z",
+  "isDeleted": false,
+  "entityId": "fe1a0e49-00cf-4fb4-907d-b4386302530c",
+  "name": "tsetSlac",
+  "isDemo": false,
+  "category": "third-party",
+  "isSource": false,
+  "isAction": true,
+  "isTrigger": false
+ }
+}

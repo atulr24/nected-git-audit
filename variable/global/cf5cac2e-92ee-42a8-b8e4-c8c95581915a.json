@@ -1,0 +1,24 @@
+{
+ "entityType": "variable",
+ "data": {
+  "createdAt": "2026-09-14T19:19:29.138Z",
+  "updatedAt": "2026-09-14T19:19:29.138Z",
+  "isDeleted": false,
+  "entityId": "cf5cac2e-92ee-42a8-b8e4-c8c95581915a",
+  "name": "forRunInLoop",
+  "category": "globalVar",
+  "scope": "workspace",
+  "dataType": "list",
+  "value": {
+   "data": [
+    1,
+    2,
+    3
+   ],
+   "isSecret": false,
+   "canReset": true
+  },
+  "isFunction": false,
+  "functionName": ""
+ }
+}

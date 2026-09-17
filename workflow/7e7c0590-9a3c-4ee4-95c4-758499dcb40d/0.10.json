@@ -1,0 +1,442 @@
+{
+ "entityType": "workflow",
+ "live": true,
+ "data": {
+  "createdAt": "2026-09-14T06:55:45.897Z",
+  "updatedAt": "2026-09-14T06:56:11.503Z",
+  "isDeleted": false,
+  "testedAt": "2026-09-14T06:56:05.134Z",
+  "publishedAt": "2026-09-14T06:56:11.465Z",
+  "entityId": "7e7c0590-9a3c-4ee4-95c4-758499dcb40d",
+  "version": "0.10",
+  "name": "wf4",
+  "commitId": "commit-eeb6462f-9294-4b75-9244-e4163481124e",
+  "status": "published",
+  "lastVersion": "draft",
+  "isLive": true,
+  "commitInfo": {
+   "title": "Created at 2026-09-14 06:55:45",
+   "description": "v1",
+   "timeStamp": "2026-09-14T06:56:11.455Z"
+  },
+  "startNode": "n_eiUQBN",
+  "description": "",
+  "trigger": {
+   "apiNode": "1",
+   "cronNode": ""
+  },
+  "nodes": [
+   {
+    "position": {
+     "x": 461.046875,
+     "y": 0
+    },
+    "style": null,
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "1",
+    "type": "trigger",
+    "data": {
+     "input": null,
+     "output": null,
+     "executedValue": null,
+     "settings": {
+      "authType": "private",
+      "cacheEnabled": false,
+      "cacheKeys": "",
+      "durationUnit": "d",
+      "durationValue": 0,
+      "isEnabled": true
+     },
+     "nodeType": "apiTrigger",
+     "entity": "",
+     "entityId": "",
+     "pluginName": "",
+     "status": "",
+     "name": "Trigger",
+     "rootId": "",
+     "sourceId": null,
+     "isMergeNode": false,
+     "runInLoop": {
+      "status": false,
+      "source": "",
+      "attribute": "",
+      "value": null
+     },
+     "switcher": null,
+     "conditions": null,
+     "blockName": "trigger",
+     "mcpServers": null,
+     "testedAt": "0001-01-01T00:00:00Z"
+    },
+    "draggable": false
+   },
+   {
+    "position": {
+     "x": 461.046875,
+     "y": 130
+    },
+    "style": null,
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "n_XvvzlC",
+    "type": "addNode",
+    "data": {
+     "input": null,
+     "output": null,
+     "executedValue": null,
+     "settings": null,
+     "nodeType": "addNodeMd",
+     "entity": "",
+     "entityId": "",
+     "pluginName": "",
+     "status": "",
+     "name": "",
+     "rootId": "",
+     "sourceId": null,
+     "isMergeNode": false,
+     "runInLoop": {
+      "status": false,
+      "source": "",
+      "attribute": "",
+      "value": null
+     },
+     "switcher": null,
+     "conditions": null,
+     "blockName": "",
+     "mcpServers": null,
+     "testedAt": "0001-01-01T00:00:00Z"
+    },
+    "draggable": false
+   },
+   {
+    "position": {
+     "x": 461.046875,
+     "y": 205
+    },
+    "style": null,
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "n_eiUQBN",
+    "type": "restApiNode",
+    "data": {
+     "input": {
+      "authentication": {
+ "value": "None",
+ "executedValue": null,
+ "name": "",
+ "dataType": "",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "baseUrl": {
+ "value": "https://jsonplaceholder.typicode.com/posts/3",
+ "executedValue": null,
+ "name": "",
+ "dataType": "",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "contentType": {
+ "value": "",
+ "executedValue": null,
+ "name": "",
+ "dataType": "",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "headers": {
+ "value": [],
+ "executedValue": null,
+ "name": "",
+ "dataType": "",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "method": {
+ "value": "GET",
+ "executedValue": null,
+ "name": "",
+ "dataType": "",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "path": {
+ "value": null,
+ "executedValue": null,
+ "name": "",
+ "dataType": "",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "queryParams": {
+ "value": [],
+ "executedValue": null,
+ "name": "",
+ "dataType": "",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+}
+     },
+     "output": null,
+     "executedValue": {
+      "error": "",
+      "executionTime": "608ms",
+      "output": {
+ "Body": {
+ "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut",
+ "id": 3,
+ "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+ "userId": 1
+},
+ "Headers": {
+ "Access-Control-Allow-Credentials": "true",
+ "Alt-Svc": "h3=\":443\"; ma=86400",
+ "Cache-Control": "max-age=43200",
+ "Cf-Cache-Status": "REVALIDATED",
+ "Cf-Ray": "a3ad7d5c29d8b895-BOM",
+ "Content-Type": "application/json; charset=utf-8",
+ "Date": "Mon, 14 Sep 2026 06:56:05 GMT",
+ "Etag": "W/\"11b-USacuIw5a/iXAGdNKBvqr/TbMTc\"",
+ "Expires": "-1",
+ "Nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+ "Pragma": "no-cache",
+ "Report-To": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=ef0rqzH19tog0VB1YkWRdvBPz7x8nzzCBh6kQ94XYZE%3D\\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\\u0026ts=1789324269\"}],\"max_age\":3600}",
+ "Reporting-Endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=ef0rqzH19tog0VB1YkWRdvBPz7x8nzzCBh6kQ94XYZE%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1789324269\"",
+ "Server": "cloudflare",
+ "Server-Timing": "cfCacheStatus;desc=\"REVALIDATED\",cfEdge;dur=17,cfOrigin;dur=559",
+ "Vary": "Origin, Accept-Encoding",
+ "Via": "2.0 heroku-router",
+ "X-Content-Type-Options": "nosniff",
+ "X-Powered-By": "Express",
+ "X-Ratelimit-Limit": "1000",
+ "X-Ratelimit-Remaining": "999",
+ "X-Ratelimit-Reset": "1789324273"
+},
+ "StatusCode": 200
+}
+     },
+     "settings": {
+      "cacheEnabled": false,
+      "cacheKeys": "",
+      "durationUnit": "d",
+      "durationValue": 0,
+      "errorContinue": false,
+      "timeout": 10,
+      "timeoutAsync": 20
+     },
+     "nodeType": "restApiNode",
+     "entity": "connector",
+     "entityId": "fa679696-6385-42f6-9984-924d35d1ca3f",
+     "pluginName": "",
+     "status": "success",
+     "name": "restAPI",
+     "rootId": "",
+     "sourceId": null,
+     "isMergeNode": false,
+     "runInLoop": {
+      "status": false,
+      "source": "",
+      "attribute": "",
+      "value": null
+     },
+     "switcher": null,
+     "conditions": null,
+     "blockName": "restAPI",
+     "mcpServers": null,
+     "testedAt": "2026-09-14T06:56:05.134Z"
+    },
+    "draggable": false
+   },
+   {
+    "position": {
+     "x": 461.046875,
+     "y": 335
+    },
+    "style": null,
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "n_rstCjY",
+    "type": "addNode",
+    "data": {
+     "input": null,
+     "output": null,
+     "executedValue": null,
+     "settings": null,
+     "nodeType": "addNodeMd",
+     "entity": "",
+     "entityId": "",
+     "pluginName": "",
+     "status": "",
+     "name": "",
+     "rootId": "",
+     "sourceId": null,
+     "isMergeNode": false,
+     "runInLoop": {
+      "status": false,
+      "source": "",
+      "attribute": "",
+      "value": null
+     },
+     "switcher": null,
+     "conditions": null,
+     "blockName": "",
+     "mcpServers": null,
+     "testedAt": "0001-01-01T00:00:00Z"
+    },
+    "draggable": false
+   }
+  ],
+  "edges": [
+   {
+    "style": {
+     "stroke": "gray",
+     "strokeWidth": 1
+    },
+    "id": "e_vpxp8d",
+    "markerEnd": "",
+    "label": "",
+    "source": "1",
+    "target": "n_XvvzlC",
+    "data": {
+     "edgeType": "then",
+     "pathId": ""
+    },
+    "type": "smoothEdge",
+    "sourceHandle": "",
+    "animated": false
+   },
+   {
+    "style": {
+     "stroke": "gray",
+     "strokeWidth": 1
+    },
+    "id": "e_vR2EN6",
+    "markerEnd": "",
+    "label": "",
+    "source": "n_eiUQBN",
+    "target": "n_rstCjY",
+    "data": {
+     "edgeType": "then",
+     "pathId": ""
+    },
+    "type": "smoothEdge",
+    "sourceHandle": "",
+    "animated": false
+   },
+   {
+    "style": {
+     "stroke": "gray",
+     "strokeWidth": 1
+    },
+    "id": "e_WCOdkT",
+    "markerEnd": "",
+    "label": "",
+    "source": "n_XvvzlC",
+    "target": "n_eiUQBN",
+    "data": {
+     "edgeType": "then",
+     "pathId": ""
+    },
+    "type": "smoothEdge",
+    "sourceHandle": "",
+    "animated": false
+   }
+  ],
+  "isEnabled": true,
+  "settings": {
+   "auditIO": null,
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "in",
+   "timeout": 0,
+   "timeoutAsync": 0
+  },
+  "comment": "",
+  "isDemo": false
+ },
+ "dependencies": [
+  {
+   "isDeleted": false,
+   "createdAt": "2026-09-14T06:55:58.320809Z",
+   "updatedAt": "2026-09-14T06:56:11.498519Z",
+   "entityCommitId": "commit-eeb6462f-9294-4b75-9244-e4163481124e",
+   "entityType": "workflow",
+   "entityId": "7e7c0590-9a3c-4ee4-95c4-758499dcb40d",
+   "entityVersion": "0.10",
+   "entityNodeId": "n_eiUQBN",
+   "dependencyType": "connector",
+   "dependencyId": "fa679696-6385-42f6-9984-924d35d1ca3f",
+   "dependencyVersion": "live"
+  }
+ ]
+}

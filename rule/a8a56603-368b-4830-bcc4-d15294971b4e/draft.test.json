@@ -1,0 +1,161 @@
+{
+ "entityType": "testcase",
+ "category": "rule",
+ "isList": true,
+ "dataList": [
+  {
+   "createdAt": "2026-09-15T14:35:40.364Z",
+   "updatedAt": "2026-09-16T13:06:04.277472Z",
+   "isDeleted": false,
+   "entityId": "607d8e55-fa0e-41ea-bfab-6faa1a109a47",
+   "name": "Test 1",
+   "input": {
+    "ci": {
+     "Age": {
+ "value": 29
+},
+     "Date": {
+ "value": "2026-09-15"
+},
+     "Listg": {
+ "value": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ]
+},
+     "Name": {
+ "value": "Atul"
+},
+     "json": {
+ "value": {
+  "Name": "Atul"
+ }
+},
+     "name": {
+ "value": "Atul"
+},
+     "str": {
+ "value": "Atul"
+}
+    }
+   },
+   "output": {
+    "action": {
+ "action_2": true,
+ "action_2_1": true
+},
+    "additionalOutput": {
+ "date": "2026-09-16",
+ "untitled": "Atul"
+},
+    "output": [
+ {
+  "defaultOutputData": true,
+  "result_3": [
+ 1,
+ 2,
+ 3
+],
+  "rowError": null,
+  "rowId": 1
+ },
+ {
+  "defaultOutputData": true,
+  "result_3": [
+ 4,
+ 5,
+ 6
+],
+  "rowError": null,
+  "rowId": 2
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 3
+ }
+]
+   }
+  },
+  {
+   "createdAt": "2026-09-15T14:35:48.572Z",
+   "updatedAt": "2026-09-16T12:52:10.014851Z",
+   "isDeleted": false,
+   "entityId": "df2eddf1-0f22-4e35-a38e-9ea1a4d156a4",
+   "name": "Test 2",
+   "input": {
+    "ci": {
+     "Age": {
+ "value": 29
+},
+     "Date": {
+ "value": "2026-09-15"
+},
+     "Listg": {
+ "value": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ]
+},
+     "Name": {
+ "value": "Raizada"
+},
+     "json": {
+ "value": {
+  "Name": "Atul"
+ }
+},
+     "name": {
+ "value": "Atul"
+},
+     "str": {
+ "value": "Atul"
+}
+    }
+   },
+   "output": {
+    "action": null,
+    "additionalOutput": {
+ "date": "2026-09-15",
+ "untitled": "Atul"
+},
+    "output": [
+ {
+  "defaultOutputData": true,
+  "result_3": [
+ 1,
+ 2,
+ 3
+],
+  "rowError": null,
+  "rowId": 1
+ },
+ {
+  "defaultOutputData": true,
+  "result_3": [
+ 1,
+ 2,
+ 3,
+ 4,
+ 5,
+ 6
+],
+  "rowError": null,
+  "rowId": 2
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 3
+ }
+]
+   }
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "entityType": "module_schema",
+ "data": {
+  "createdAt": "2026-09-07T07:38:39.708Z",
+  "updatedAt": "2026-09-07T07:38:39.708Z",
+  "isDeleted": false,
+  "entityId": "1920ee51-24c9-448d-829d-f730c35a60eb",
+  "name": "applicationDate",
+  "moduleId": "0b41c93e-c60c-4f48-922f-0100bf61c9d8",
+  "dataType": "date",
+  "usageType": "",
+  "options": null
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "entityType": "testcase",
+ "category": "rule",
+ "isList": true,
+ "dataList": [
+  {
+   "createdAt": "2026-09-11T10:37:24.438Z",
+   "updatedAt": "2026-09-11T10:37:24.438Z",
+   "isDeleted": false,
+   "entityId": "cf0cc098-9a6a-4f23-a420-9be8c6b8b377",
+   "name": "Test 2",
+   "input": {
+    "ci": {
+     "Age": {
+ "value": 29
+},
+     "Name": {
+ "value": "AtulRaizada"
+}
+    }
+   },
+   "output": {
+    "action": null,
+    "additionalOutput": {
+ 
+},
+    "output": [
+ {
+  "defaultOutputData": true,
+  "result_1": "Value",
+  "rowError": null,
+  "rowId": 1
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 2
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 3
+ }
+]
+   }
+  },
+  {
+   "createdAt": "2026-09-11T10:37:13.381Z",
+   "updatedAt": "2026-09-11T10:37:13.381Z",
+   "isDeleted": false,
+   "entityId": "eb46b5ee-7367-49d0-9880-831e542bcc42",
+   "name": "Test 1",
+   "input": {
+    "ci": {
+     "Age": {
+ "value": 29
+},
+     "Name": {
+ "value": "Atul"
+}
+    }
+   },
+   "output": {
+    "action": null,
+    "additionalOutput": {
+ 
+},
+    "output": [
+ {
+  "defaultOutputData": true,
+  "result_1": "Value",
+  "rowError": null,
+  "rowId": 1
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 2
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 3
+ }
+]
+   }
+  }
+ ]
+}

@@ -3,20 +3,20 @@
  "category": "decisionTable",
  "data": {
   "createdAt": "2026-08-27T09:59:23.609Z",
-  "updatedAt": "2026-08-27T10:27:58.990578Z",
+  "updatedAt": "2026-09-16T13:47:54.559627Z",
   "isDeleted": false,
-  "testedAt": "2026-08-27T10:27:58.99Z",
-  "publishedAt": "0001-01-01T00:00:00Z",
+  "testedAt": "2026-09-16T13:47:54.555Z",
+  "publishedAt": "2026-09-10T12:00:41.755Z",
   "entityId": "eeaa037b-12a3-46b3-b774-f3544fedfbbc",
   "version": "draft",
   "name": "dtError",
-  "commitId": "commit-4c5d2176-8792-47f8-aa00-84dee73d9e91",
+  "commitId": "commit-c881d001-9095-4dfa-9efa-4ab1ec51123c",
   "status": "draft",
-  "lastVersion": "",
+  "lastVersion": "0.10",
   "isLive": false,
   "commitInfo": {
-   "title": "Created at 2026-08-27 09:59:23",
-   "timeStamp": "2026-08-27T09:59:23.609594002Z"
+   "title": "Forked from 0.10",
+   "timeStamp": "2026-09-14T18:17:21.66269828Z"
   },
   "customInput": {
    "num": {
@@ -28,7 +28,9 @@
  "attribute": "",
  "sourceType": "",
  "executedValue": 1,
- "config": null,
+ "config": {
+  
+ },
  "value": "",
  "next": "",
  "previous": "",
@@ -260,12 +262,12 @@
     "isPrivate": true
    },
    "isEnabled": true,
-   "auditIO": false,
+   "auditIO": true,
    "cachingInfo": {
     "Enabled": false,
     "Duration": {
      "Value": 0,
-     "Unit": ""
+     "Unit": "d"
     },
     "CacheKeys": ""
    },

@@ -1,0 +1,16 @@
+{
+ "entityType": "connector",
+ "category": "gsheet",
+ "data": {
+  "createdAt": "2026-09-10T10:52:46.336Z",
+  "updatedAt": "2026-09-10T10:52:54.027767Z",
+  "isDeleted": false,
+  "entityId": "f67f7dd9-c492-4d78-934f-0211c1108db2",
+  "name": "gsheete",
+  "isDemo": false,
+  "category": "third-party",
+  "isSource": true,
+  "isAction": true,
+  "isTrigger": false
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "entityType": "connector",
+ "category": "sqlserver",
+ "data": {
+  "createdAt": "2026-09-09T08:24:50.496Z",
+  "updatedAt": "2026-09-14T09:56:39.713482Z",
+  "isDeleted": false,
+  "entityId": "608e58b0-0571-4dcb-8011-eb1989968687",
+  "name": "test",
+  "isDemo": false,
+  "category": "database",
+  "isSource": true,
+  "isAction": true,
+  "isTrigger": true
+ }
+}

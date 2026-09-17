@@ -1,0 +1,20 @@
+{
+ "entityType": "variable",
+ "data": {
+  "createdAt": "2026-08-27T11:04:26.453Z",
+  "updatedAt": "2026-08-27T11:04:26.453Z",
+  "isDeleted": false,
+  "entityId": "54e0d9a2-235f-4b11-9f55-a39783e5c5c1",
+  "name": "boolDyna",
+  "category": "globalVar",
+  "scope": "workspace",
+  "dataType": "boolean",
+  "value": {
+   "data": true,
+   "isSecret": false,
+   "canReset": true
+  },
+  "isFunction": false,
+  "functionName": ""
+ }
+}

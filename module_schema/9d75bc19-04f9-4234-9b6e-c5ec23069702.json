@@ -1,0 +1,14 @@
+{
+ "entityType": "module_schema",
+ "data": {
+  "createdAt": "2026-09-07T07:38:39.722Z",
+  "updatedAt": "2026-09-07T07:38:39.722Z",
+  "isDeleted": false,
+  "entityId": "9d75bc19-04f9-4234-9b6e-c5ec23069702",
+  "name": "Address",
+  "moduleId": "0b41c93e-c60c-4f48-922f-0100bf61c9d8",
+  "dataType": "string",
+  "usageType": "",
+  "options": null
+ }
+}

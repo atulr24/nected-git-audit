@@ -1,0 +1,36 @@
+{
+ "entityType": "module_schema",
+ "data": {
+  "createdAt": "2026-09-14T11:09:05.873Z",
+  "updatedAt": "2026-09-14T11:09:05.873Z",
+  "isDeleted": false,
+  "entityId": "14b8a83e-2d46-4828-9e19-497c5e9ff989",
+  "name": "asd",
+  "moduleId": "8a5cf72a-c022-4add-909a-769feaf88d4e",
+  "dataType": "string",
+  "usageType": "optional",
+  "options": [
+   {
+    "value": "asd"
+   },
+   {
+    "value": "ASd"
+   }
+  ]
+ },
+ "dependencies": [
+  {
+   "isDeleted": false,
+   "createdAt": "2026-09-14T11:09:05.939948Z",
+   "updatedAt": "2026-09-14T11:09:05.939948Z",
+   "entityCommitId": "",
+   "entityType": "module_schema",
+   "entityId": "14b8a83e-2d46-4828-9e19-497c5e9ff989",
+   "entityVersion": "live",
+   "entityNodeId": "module",
+   "dependencyType": "module",
+   "dependencyId": "8a5cf72a-c022-4add-909a-769feaf88d4e",
+   "dependencyVersion": "live"
+  }
+ ]
+}

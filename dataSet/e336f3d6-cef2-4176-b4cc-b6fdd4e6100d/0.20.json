@@ -1,0 +1,115 @@
+{
+ "entityType": "dataSet",
+ "category": "dataSet",
+ "live": true,
+ "data": {
+  "createdAt": "2026-09-10T11:49:16.171Z",
+  "updatedAt": "2026-09-16T12:54:24.754Z",
+  "isDeleted": false,
+  "testedAt": "2026-09-16T12:54:19.537Z",
+  "publishedAt": "2026-09-16T12:54:24.74Z",
+  "entityId": "e336f3d6-cef2-4176-b4cc-b6fdd4e6100d",
+  "version": "0.20",
+  "name": "mngDS",
+  "commitId": "commit-143f914f-71e0-409a-a390-0da06ad496ad",
+  "status": "published",
+  "lastVersion": "draft",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Forked from 0.10",
+   "description": "v1.2",
+   "timeStamp": "2026-09-16T12:54:24.739Z"
+  },
+  "fields": {
+   "Bool": {
+ "ColumnName": "Bool",
+ "DataType": "boolean",
+ "Order": 2,
+ "ExecutedValue": false
+},
+   "Integer": {
+ "ColumnName": "Integer",
+ "DataType": "string",
+ "Order": 1,
+ "ExecutedValue": "100"
+},
+   "_id": {
+ "ColumnName": "_id",
+ "DataType": "objectid",
+ "Order": 3,
+ "ExecutedValue": "5a9427648b0beebeb6957b51"
+},
+   "date": {
+ "ColumnName": "date",
+ "DataType": "dateTime",
+ "Order": 8,
+ "ExecutedValue": "2025-11-01T05:49:56Z"
+},
+   "email": {
+ "ColumnName": "email",
+ "DataType": "string",
+ "Order": 5,
+ "ExecutedValue": "john.doe@example.com"
+},
+   "movie_id": {
+ "ColumnName": "movie_id",
+ "DataType": "objectid",
+ "Order": 6,
+ "ExecutedValue": "573a1391f29313caabcd7da6"
+},
+   "name": {
+ "ColumnName": "name",
+ "DataType": "string",
+ "Order": 4,
+ "ExecutedValue": "email@email.com"
+},
+   "text": {
+ "ColumnName": "text",
+ "DataType": "json",
+ "Order": 7,
+ "ExecutedValue": {
+  "$cond": {
+ "else": "NegativeReview",
+ "if": {
+ "$eq": [
+ "$Bool",
+ true
+]
+},
+ "then": "PositiveReview"
+}
+ }
+}
+  },
+  "description": "",
+  "query": "db.comments.find({})",
+  "params": {
+   
+  },
+  "connectorId": "d0591038-2d24-4a13-851e-c43d0f1a0180",
+  "isDemo": false,
+  "settings": {
+   "durationUnit": "m",
+   "rowLimit": 1000,
+   "durationValue": 5,
+   "cacheEnabled": true,
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "in"
+  }
+ },
+ "dependencies": [
+  {
+   "isDeleted": false,
+   "createdAt": "2026-09-16T12:54:18.205031Z",
+   "updatedAt": "2026-09-16T12:54:24.746266Z",
+   "entityCommitId": "commit-143f914f-71e0-409a-a390-0da06ad496ad",
+   "entityType": "dataSet",
+   "entityId": "e336f3d6-cef2-4176-b4cc-b6fdd4e6100d",
+   "entityVersion": "0.20",
+   "entityNodeId": "connector",
+   "dependencyType": "connector",
+   "dependencyId": "d0591038-2d24-4a13-851e-c43d0f1a0180",
+   "dependencyVersion": "live"
+  }
+ ]
+}

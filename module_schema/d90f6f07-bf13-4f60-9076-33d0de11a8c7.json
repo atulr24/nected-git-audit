@@ -1,0 +1,24 @@
+{
+ "entityType": "module_schema",
+ "data": {
+  "createdAt": "2026-09-07T07:38:39.714Z",
+  "updatedAt": "2026-09-07T07:38:39.714Z",
+  "isDeleted": false,
+  "entityId": "d90f6f07-bf13-4f60-9076-33d0de11a8c7",
+  "name": "Name",
+  "moduleId": "0b41c93e-c60c-4f48-922f-0100bf61c9d8",
+  "dataType": "string",
+  "usageType": "mandatory",
+  "options": [
+   {
+    "value": "Snehasish"
+   },
+   {
+    "value": "Joe"
+   },
+   {
+    "value": "Pradhuman"
+   }
+  ]
+ }
+}

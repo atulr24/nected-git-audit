@@ -1,0 +1,1596 @@
+{
+ "entityType": "workflow",
+ "live": true,
+ "data": {
+  "createdAt": "2026-09-14T09:52:16.567Z",
+  "updatedAt": "2026-09-14T12:51:10.87Z",
+  "isDeleted": false,
+  "testedAt": "2026-09-14T12:45:36.349Z",
+  "publishedAt": "2026-09-14T12:51:10.859Z",
+  "entityId": "f8089833-81fd-4428-a463-531b96d27e46",
+  "version": "0.70",
+  "name": "wf6",
+  "commitId": "commit-6f3c9754-b361-4e1e-a506-80b22ca6564f",
+  "status": "published",
+  "lastVersion": "draft",
+  "isLive": true,
+  "commitInfo": {
+   "title": "Forked from 0.60",
+   "description": "v7",
+   "timeStamp": "2026-09-14T12:51:10.854Z"
+  },
+  "startNode": "n_WOCJHy",
+  "description": "",
+  "trigger": {
+   "apiNode": "1",
+   "cronNode": ""
+  },
+  "nodes": [
+   {
+    "position": {
+     "x": 461.046875,
+     "y": 0
+    },
+    "style": null,
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "1",
+    "type": "trigger",
+    "data": {
+     "input": null,
+     "output": null,
+     "executedValue": null,
+     "settings": {
+      "authType": "none",
+      "cacheEnabled": false,
+      "cacheKeys": "",
+      "durationUnit": "d",
+      "durationValue": 0,
+      "isEnabled": true
+     },
+     "nodeType": "apiTrigger",
+     "entity": "",
+     "entityId": "",
+     "pluginName": "",
+     "status": "",
+     "name": "Trigger",
+     "rootId": "",
+     "sourceId": null,
+     "isMergeNode": false,
+     "runInLoop": {
+      "status": false,
+      "source": "",
+      "attribute": "",
+      "value": null
+     },
+     "switcher": null,
+     "conditions": null,
+     "blockName": "trigger",
+     "mcpServers": null,
+     "testedAt": "0001-01-01T00:00:00Z"
+    },
+    "draggable": false
+   },
+   {
+    "position": {
+     "x": 461.046875,
+     "y": 130
+    },
+    "style": null,
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "n_AFoPNP",
+    "type": "addNode",
+    "data": {
+     "input": null,
+     "output": null,
+     "executedValue": null,
+     "settings": null,
+     "nodeType": "addNodeMd",
+     "entity": "",
+     "entityId": "",
+     "pluginName": "",
+     "status": "",
+     "name": "",
+     "rootId": "",
+     "sourceId": null,
+     "isMergeNode": false,
+     "runInLoop": {
+      "status": false,
+      "source": "",
+      "attribute": "",
+      "value": null
+     },
+     "switcher": null,
+     "conditions": null,
+     "blockName": "",
+     "mcpServers": null,
+     "testedAt": "0001-01-01T00:00:00Z"
+    },
+    "draggable": false
+   },
+   {
+    "position": {
+     "x": 461.046875,
+     "y": 1025
+    },
+    "style": null,
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "n_fScZ5M",
+    "type": "responseNode",
+    "data": {
+     "input": {
+      "key_0": {
+ "value": null,
+ "executedValue": "Hello! How are you doing? Is there something I can help you with today? 😊",
+ "name": "key_0",
+ "dataType": "string",
+ "source": "CustomAIAgent",
+ "attribute": "output.response",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+}
+     },
+     "output": null,
+     "executedValue": {
+      "error": "",
+      "output": {
+ "key_0": "Hello! How are you doing? Is there something I can help you with today? 😊"
+}
+     },
+     "settings": {
+      "errorContinue": false,
+      "timeout": 10,
+      "timeoutAsync": 20
+     },
+     "nodeType": "responseNode",
+     "entity": "responseNode",
+     "entityId": "n_fScZ5M",
+     "pluginName": "",
+     "status": "success",
+     "name": "Response",
+     "rootId": "",
+     "sourceId": null,
+     "isMergeNode": false,
+     "runInLoop": {
+      "status": false,
+      "source": "",
+      "attribute": "",
+      "value": null
+     },
+     "switcher": null,
+     "conditions": null,
+     "blockName": "response",
+     "mcpServers": null,
+     "testedAt": "0001-01-01T00:00:00Z"
+    },
+    "draggable": false
+   },
+   {
+    "position": {
+     "x": 461.046875,
+     "y": 1155
+    },
+    "style": null,
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "n_U4If13",
+    "type": "addNode",
+    "data": {
+     "input": null,
+     "output": null,
+     "executedValue": null,
+     "settings": null,
+     "nodeType": "addNodeMd",
+     "entity": "",
+     "entityId": "",
+     "pluginName": "",
+     "status": "",
+     "name": "",
+     "rootId": "",
+     "sourceId": null,
+     "isMergeNode": false,
+     "runInLoop": {
+      "status": false,
+      "source": "",
+      "attribute": "",
+      "value": null
+     },
+     "switcher": null,
+     "conditions": null,
+     "blockName": "",
+     "mcpServers": null,
+     "testedAt": "0001-01-01T00:00:00Z"
+    },
+    "draggable": false
+   },
+   {
+    "position": {
+     "x": 461.046875,
+     "y": 615
+    },
+    "style": null,
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "n_ToqCED",
+    "type": "aiAgentNode",
+    "data": {
+     "input": {
+      "agentName": {
+ "value": "chat",
+ "executedValue": null,
+ "name": "",
+ "dataType": "string",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "formatMarkdown": {
+ "value": true,
+ "executedValue": null,
+ "name": "",
+ "dataType": "",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "message": {
+ "value": "hello",
+ "executedValue": "hello",
+ "name": "",
+ "dataType": "string",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "model": {
+ "value": "claude-sonnet-4-6",
+ "executedValue": null,
+ "name": "",
+ "dataType": "string",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "systemPrompt": {
+ "value": "You are a helpful AI assistant. Provide accurate, concise, and helpful responses.",
+ "executedValue": null,
+ "name": "",
+ "dataType": "string",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+}
+     },
+     "output": null,
+     "executedValue": {
+      "error": "",
+      "executionTime": "1.61s",
+      "output": {
+ "metadata": {
+ "content_blocks": [
+ {
+  "text": "Hello! How are you doing? Is there something I can help you with today? 😊",
+  "type": "text"
+ }
+],
+ "id": "msg_011Cf3M1SXd7EWhyeZxNcZJC",
+ "message_id": "lc_run--01a09fed-85b2-7e01-831a-c42aba1a2031-0",
+ "model": "claude-sonnet-4-6",
+ "stop_reason": "end_turn",
+ "stop_sequence": null,
+ "usage": {
+ "cache_creation": {
+ "ephemeral_1h_input_tokens": 0,
+ "ephemeral_5m_input_tokens": 0
+},
+ "cache_creation_input_tokens": 0,
+ "cache_read_input_tokens": 0,
+ "inference_geo": "global",
+ "input_tokens": 27,
+ "output_tokens": 23,
+ "server_tool_use": null,
+ "service_tier": "standard"
+},
+ "usage_stats": null,
+ "validation_issues": true,
+ "validation_passed": []
+},
+ "processing_time": 1.5689999982714653,
+ "ref_id": "6590e879-b6c1-4186-af56-47ef0bbcb99c",
+ "response": "Hello! How are you doing? Is there something I can help you with today? 😊"
+}
+     },
+     "settings": {
+      "cacheEnabled": false,
+      "durationUnit": "m",
+      "durationValue": 5,
+      "errorContinue": false,
+      "maxRetries": 0,
+      "maxTokens": 1000,
+      "metadataRequired": false,
+      "rowLimit": null,
+      "temperature": 1,
+      "timeout": 50,
+      "timeoutAsync": 180
+     },
+     "nodeType": "aiAgentNode",
+     "entity": "connector",
+     "entityId": "bbf462fd-31be-46cd-b98b-f20f398b9a8d",
+     "pluginName": "",
+     "status": "success",
+     "name": "CustomAIAgent",
+     "rootId": "",
+     "sourceId": null,
+     "isMergeNode": false,
+     "runInLoop": {
+      "status": false,
+      "source": "",
+      "attribute": "",
+      "value": null
+     },
+     "switcher": null,
+     "conditions": null,
+     "blockName": "aiAgentNode",
+     "mcpServers": null,
+     "testedAt": "0001-01-01T00:00:00Z"
+    },
+    "draggable": false
+   },
+   {
+    "position": {
+     "x": 461.046875,
+     "y": 745
+    },
+    "style": null,
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "n_x9MjO1",
+    "type": "addNode",
+    "data": {
+     "input": null,
+     "output": null,
+     "executedValue": null,
+     "settings": null,
+     "nodeType": "addNodeMd",
+     "entity": "",
+     "entityId": "",
+     "pluginName": "",
+     "status": "",
+     "name": "",
+     "rootId": "",
+     "sourceId": null,
+     "isMergeNode": false,
+     "runInLoop": {
+      "status": false,
+      "source": "",
+      "attribute": "",
+      "value": null
+     },
+     "switcher": null,
+     "conditions": null,
+     "blockName": "",
+     "mcpServers": null,
+     "testedAt": "0001-01-01T00:00:00Z"
+    },
+    "draggable": false
+   },
+   {
+    "position": {
+     "x": 461.046875,
+     "y": 820
+    },
+    "style": null,
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "n_Z971WB",
+    "type": "aiAgentNode",
+    "data": {
+     "input": {
+      "agentName": {
+ "value": "chat",
+ "executedValue": null,
+ "name": "",
+ "dataType": "string",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "formatMarkdown": {
+ "value": true,
+ "executedValue": null,
+ "name": "",
+ "dataType": "",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "message": {
+ "value": "give me list of 3 tasks in software deve",
+ "executedValue": "give me list of 3 tasks in software deve",
+ "name": "",
+ "dataType": "string",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "model": {
+ "value": "claude-sonnet-4-6",
+ "executedValue": null,
+ "name": "",
+ "dataType": "string",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "systemPrompt": {
+ "value": "You are a helpful AI assistant. Provide accurate, concise, and helpful responses.",
+ "executedValue": null,
+ "name": "",
+ "dataType": "string",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+}
+     },
+     "output": null,
+     "executedValue": {
+      "error": "",
+      "executionTime": "2.37s",
+      "output": {
+ "metadata": {
+ "content_blocks": [
+ {
+  "text": "Here are **3 common tasks in software development**:\n\n1. **Writing Code** – Developing features and functionality based on project requirements\n\n2. **Code Review** – Examining and testing teammates' code to ensure quality and catch bugs\n\n3. **Debugging** – Identifying and fixing errors or issues in existing code",
+  "type": "text"
+ }
+],
+ "id": "msg_011Cf3M3WFuvr7owMXyZbSx2",
+ "message_id": "lc_run--01a09fed-f396-7af0-9e32-0ff34d6b7c6a-0",
+ "model": "claude-sonnet-4-6",
+ "stop_reason": "end_turn",
+ "stop_sequence": null,
+ "usage": {
+ "cache_creation": {
+ "ephemeral_1h_input_tokens": 0,
+ "ephemeral_5m_input_tokens": 0
+},
+ "cache_creation_input_tokens": 0,
+ "cache_read_input_tokens": 0,
+ "inference_geo": "global",
+ "input_tokens": 37,
+ "output_tokens": 71,
+ "server_tool_use": null,
+ "service_tier": "standard"
+},
+ "usage_stats": null,
+ "validation_issues": true,
+ "validation_passed": []
+},
+ "processing_time": 2.31700000166893,
+ "ref_id": "de3a7ee5-ce8d-4b31-addd-e9791b3f2d1f",
+ "response": "Here are **3 common tasks in software development**:\n\n1. **Writing Code** – Developing features and functionality based on project requirements\n\n2. **Code Review** – Examining and testing teammates' code to ensure quality and catch bugs\n\n3. **Debugging** – Identifying and fixing errors or issues in existing code"
+}
+     },
+     "settings": {
+      "cacheEnabled": false,
+      "durationUnit": "m",
+      "durationValue": 5,
+      "errorContinue": false,
+      "maxRetries": 0,
+      "maxTokens": 1000,
+      "metadataRequired": false,
+      "rowLimit": null,
+      "temperature": 1,
+      "timeout": 50,
+      "timeoutAsync": 180
+     },
+     "nodeType": "aiAgentNode",
+     "entity": "connector",
+     "entityId": "bbf462fd-31be-46cd-b98b-f20f398b9a8d",
+     "pluginName": "",
+     "status": "success",
+     "name": "CustomAIAgent1",
+     "rootId": "",
+     "sourceId": null,
+     "isMergeNode": false,
+     "runInLoop": {
+      "status": false,
+      "source": "",
+      "attribute": "",
+      "value": null
+     },
+     "switcher": null,
+     "conditions": null,
+     "blockName": "aiAgentNode",
+     "mcpServers": null,
+     "testedAt": "0001-01-01T00:00:00Z"
+    },
+    "draggable": false
+   },
+   {
+    "position": {
+     "x": 461.046875,
+     "y": 950
+    },
+    "style": null,
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "n_2xFZXH",
+    "type": "addNode",
+    "data": {
+     "input": null,
+     "output": null,
+     "executedValue": null,
+     "settings": null,
+     "nodeType": "addNodeMd",
+     "entity": "",
+     "entityId": "",
+     "pluginName": "",
+     "status": "",
+     "name": "",
+     "rootId": "",
+     "sourceId": null,
+     "isMergeNode": false,
+     "runInLoop": {
+      "status": false,
+      "source": "",
+      "attribute": "",
+      "value": null
+     },
+     "switcher": null,
+     "conditions": null,
+     "blockName": "",
+     "mcpServers": null,
+     "testedAt": "0001-01-01T00:00:00Z"
+    },
+    "draggable": false
+   },
+   {
+    "position": {
+     "x": 461.046875,
+     "y": 410
+    },
+    "style": null,
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "n_WmMQ0w",
+    "type": "rule",
+    "data": {
+     "input": {
+      "Age": {
+ "value": null,
+ "executedValue": null,
+ "name": "Age",
+ "dataType": "numeric",
+ "source": "loop",
+ "attribute": "currentItem",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "Date": {
+ "value": "2026-09-14",
+ "executedValue": null,
+ "name": "Date",
+ "dataType": "date",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "Listg": {
+ "value": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "executedValue": null,
+ "name": "Listg",
+ "dataType": "list",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "json": {
+ "value": {
+  
+ },
+ "executedValue": null,
+ "name": "json",
+ "dataType": "json",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "name": {
+ "value": "Atul",
+ "executedValue": null,
+ "name": "name",
+ "dataType": "string",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "str": {
+ "value": "Atul",
+ "executedValue": null,
+ "name": "str",
+ "dataType": "string",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+}
+     },
+     "output": null,
+     "executedValue": {
+      "error": "",
+      "executionTime": "66ms",
+      "name": "Dt1",
+      "output": [
+ {
+  "action": null,
+  "additionalOutput": {
+ "date": "2026-09-14",
+ "untitled": "Atul"
+},
+  "errors": "",
+  "output": [
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 1
+ },
+ {
+  "defaultOutputData": true,
+  "list": [],
+  "result_1": "staging",
+  "result_2": {
+ "hj": [
+ 1,
+ 2,
+ 3,
+ 4
+]
+},
+  "result_3": [],
+  "rowError": null,
+  "rowId": 2
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 3
+ }
+]
+ },
+ {
+  "action": null,
+  "additionalOutput": {
+ "date": "2026-09-14",
+ "untitled": "Atul"
+},
+  "errors": "",
+  "output": [
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 1
+ },
+ {
+  "defaultOutputData": true,
+  "list": [],
+  "result_1": "staging",
+  "result_2": {
+ "hj": [
+ 1,
+ 2,
+ 3,
+ 4
+]
+},
+  "result_3": [],
+  "rowError": null,
+  "rowId": 2
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 3
+ }
+]
+ },
+ {
+  "action": null,
+  "additionalOutput": {
+ "date": "2026-09-14",
+ "untitled": "Atul"
+},
+  "errors": "",
+  "output": [
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 1
+ },
+ {
+  "defaultOutputData": true,
+  "list": [],
+  "result_1": "staging",
+  "result_2": {
+ "hj": [
+ 1,
+ 2,
+ 3,
+ 4
+]
+},
+  "result_3": [],
+  "rowError": null,
+  "rowId": 2
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 3
+ }
+]
+ },
+ {
+  "action": null,
+  "additionalOutput": {
+ "date": "2026-09-14",
+ "untitled": "Atul"
+},
+  "errors": "",
+  "output": [
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 1
+ },
+ {
+  "defaultOutputData": true,
+  "list": [],
+  "result_1": "staging",
+  "result_2": {
+ "hj": [
+ 1,
+ 2,
+ 3,
+ 4
+]
+},
+  "result_3": [],
+  "rowError": null,
+  "rowId": 2
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 3
+ }
+]
+ },
+ {
+  "action": null,
+  "additionalOutput": {
+ "date": "2026-09-14",
+ "untitled": "Atul"
+},
+  "errors": "",
+  "output": [
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 1
+ },
+ {
+  "defaultOutputData": true,
+  "list": [],
+  "result_1": "staging",
+  "result_2": {
+ "hj": [
+ 1,
+ 2,
+ 3,
+ 4
+]
+},
+  "result_3": [],
+  "rowError": null,
+  "rowId": 2
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 3
+ }
+]
+ },
+ {
+  "action": null,
+  "additionalOutput": {
+ "date": "2026-09-14",
+ "untitled": "Atul"
+},
+  "errors": "",
+  "output": [
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 1
+ },
+ {
+  "defaultOutputData": true,
+  "list": [],
+  "result_1": "staging",
+  "result_2": {
+ "hj": [
+ 1,
+ 2,
+ 3,
+ 4
+]
+},
+  "result_3": [],
+  "rowError": null,
+  "rowId": 2
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 3
+ }
+]
+ }
+],
+      "version": "0.50"
+     },
+     "settings": {
+      "actionInSync": false,
+      "errorContinue": false,
+      "runAction": false,
+      "timeout": 10,
+      "timeoutAsync": 20
+     },
+     "nodeType": "dtNode",
+     "entity": "rule",
+     "entityId": "a8a56603-368b-4830-bcc4-d15294971b4e",
+     "pluginName": "",
+     "status": "success",
+     "name": "Dt1",
+     "rootId": "",
+     "sourceId": null,
+     "isMergeNode": false,
+     "runInLoop": {
+      "status": true,
+      "source": "globalVar",
+      "attribute": "numList",
+      "value": null
+     },
+     "switcher": null,
+     "conditions": null,
+     "blockName": "decisionTable",
+     "mcpServers": null,
+     "testedAt": "0001-01-01T00:00:00Z"
+    },
+    "draggable": false
+   },
+   {
+    "position": {
+     "x": 461.046875,
+     "y": 540
+    },
+    "style": null,
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "n_UaYJCb",
+    "type": "addNode",
+    "data": {
+     "input": null,
+     "output": null,
+     "executedValue": null,
+     "settings": null,
+     "nodeType": "addNodeMd",
+     "entity": "",
+     "entityId": "",
+     "pluginName": "",
+     "status": "",
+     "name": "",
+     "rootId": "",
+     "sourceId": null,
+     "isMergeNode": false,
+     "runInLoop": {
+      "status": false,
+      "source": "",
+      "attribute": "",
+      "value": null
+     },
+     "switcher": null,
+     "conditions": null,
+     "blockName": "",
+     "mcpServers": null,
+     "testedAt": "0001-01-01T00:00:00Z"
+    },
+    "draggable": false
+   },
+   {
+    "position": {
+     "x": 461.046875,
+     "y": 205
+    },
+    "style": null,
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "n_WOCJHy",
+    "type": "delayNode",
+    "data": {
+     "input": {
+      "action": {
+ "value": "webhook",
+ "executedValue": null,
+ "name": "",
+ "dataType": "",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "amount": {
+ "value": 1,
+ "executedValue": null,
+ "name": "",
+ "dataType": "",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "attributes": {
+ "value": [],
+ "executedValue": null,
+ "name": "",
+ "dataType": "",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "authType": {
+ "value": "none",
+ "executedValue": null,
+ "name": "",
+ "dataType": "",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "autoResume": {
+ "value": false,
+ "executedValue": null,
+ "name": "",
+ "dataType": "",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "dateTime": {
+ "value": null,
+ "executedValue": null,
+ "name": "",
+ "dataType": "",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "httpMethod": {
+ "value": "POST",
+ "executedValue": null,
+ "name": "",
+ "dataType": "",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "resumeOnValue": {
+ "value": "[1,2,3]",
+ "executedValue": "[1,2,3]",
+ "name": "",
+ "dataType": "list",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "timezone": {
+ "value": "utc",
+ "executedValue": null,
+ "name": "",
+ "dataType": "",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "unit": {
+ "value": "d",
+ "executedValue": null,
+ "name": "",
+ "dataType": "",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+}
+     },
+     "output": null,
+     "executedValue": null,
+     "settings": {
+      "timeout": 50,
+      "timeoutAsync": 180
+     },
+     "nodeType": "delayNode",
+     "entity": "delayNode",
+     "entityId": "n_WOCJHy",
+     "pluginName": "",
+     "status": "",
+     "name": "WAIT_and_RESUME",
+     "rootId": "",
+     "sourceId": null,
+     "isMergeNode": false,
+     "runInLoop": {
+      "status": false,
+      "source": "",
+      "attribute": "",
+      "value": null
+     },
+     "switcher": null,
+     "conditions": null,
+     "blockName": "delay",
+     "mcpServers": null,
+     "testedAt": "0001-01-01T00:00:00Z"
+    },
+    "draggable": false
+   },
+   {
+    "position": {
+     "x": 461.046875,
+     "y": 335
+    },
+    "style": null,
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "n_yQyVNC",
+    "type": "addNode",
+    "data": {
+     "input": null,
+     "output": null,
+     "executedValue": null,
+     "settings": null,
+     "nodeType": "addNodeMd",
+     "entity": "",
+     "entityId": "",
+     "pluginName": "",
+     "status": "",
+     "name": "",
+     "rootId": "",
+     "sourceId": null,
+     "isMergeNode": false,
+     "runInLoop": {
+      "status": false,
+      "source": "",
+      "attribute": "",
+      "value": null
+     },
+     "switcher": null,
+     "conditions": null,
+     "blockName": "",
+     "mcpServers": null,
+     "testedAt": "0001-01-01T00:00:00Z"
+    },
+    "draggable": false
+   }
+  ],
+  "edges": [
+   {
+    "style": {
+     "stroke": "gray",
+     "strokeWidth": 1
+    },
+    "id": "e_PVAaL4",
+    "markerEnd": "",
+    "label": "",
+    "source": "1",
+    "target": "n_AFoPNP",
+    "data": {
+     "edgeType": "then",
+     "pathId": ""
+    },
+    "type": "smoothEdge",
+    "sourceHandle": "",
+    "animated": false
+   },
+   {
+    "style": {
+     "stroke": "gray",
+     "strokeWidth": 1
+    },
+    "id": "e_kypDax",
+    "markerEnd": "",
+    "label": "",
+    "source": "n_fScZ5M",
+    "target": "n_U4If13",
+    "data": {
+     "edgeType": "then",
+     "pathId": ""
+    },
+    "type": "smoothEdge",
+    "sourceHandle": "",
+    "animated": false
+   },
+   {
+    "style": {
+     "stroke": "gray",
+     "strokeWidth": 1
+    },
+    "id": "e_aE5Cn4",
+    "markerEnd": "",
+    "label": "",
+    "source": "n_ToqCED",
+    "target": "n_x9MjO1",
+    "data": {
+     "edgeType": "then",
+     "pathId": ""
+    },
+    "type": "smoothEdge",
+    "sourceHandle": "",
+    "animated": false
+   },
+   {
+    "style": {
+     "stroke": "gray",
+     "strokeWidth": 1
+    },
+    "id": "e_afIP6d",
+    "markerEnd": "",
+    "label": "",
+    "source": "n_2xFZXH",
+    "target": "n_fScZ5M",
+    "data": {
+     "edgeType": "then",
+     "pathId": ""
+    },
+    "type": "smoothEdge",
+    "sourceHandle": "",
+    "animated": false
+   },
+   {
+    "style": {
+     "stroke": "gray",
+     "strokeWidth": 1
+    },
+    "id": "e_t1Nf2v",
+    "markerEnd": "",
+    "label": "",
+    "source": "n_Z971WB",
+    "target": "n_2xFZXH",
+    "data": {
+     "edgeType": "then",
+     "pathId": ""
+    },
+    "type": "smoothEdge",
+    "sourceHandle": "",
+    "animated": false
+   },
+   {
+    "style": {
+     "stroke": "gray",
+     "strokeWidth": 1
+    },
+    "id": "e_sY5VmW",
+    "markerEnd": "",
+    "label": "",
+    "source": "n_x9MjO1",
+    "target": "n_Z971WB",
+    "data": {
+     "edgeType": "then",
+     "pathId": ""
+    },
+    "type": "smoothEdge",
+    "sourceHandle": "",
+    "animated": false
+   },
+   {
+    "style": {
+     "stroke": "gray",
+     "strokeWidth": 1
+    },
+    "id": "e_pX6p1v",
+    "markerEnd": "",
+    "label": "",
+    "source": "n_UaYJCb",
+    "target": "n_ToqCED",
+    "data": {
+     "edgeType": "then",
+     "pathId": ""
+    },
+    "type": "smoothEdge",
+    "sourceHandle": "",
+    "animated": false
+   },
+   {
+    "style": {
+     "stroke": "gray",
+     "strokeWidth": 1
+    },
+    "id": "e_ON6dXH",
+    "markerEnd": "",
+    "label": "",
+    "source": "n_WmMQ0w",
+    "target": "n_UaYJCb",
+    "data": {
+     "edgeType": "then",
+     "pathId": ""
+    },
+    "type": "smoothEdge",
+    "sourceHandle": "",
+    "animated": false
+   },
+   {
+    "style": {
+     "stroke": "gray",
+     "strokeWidth": 1
+    },
+    "id": "e_BbN3gp",
+    "markerEnd": "",
+    "label": "",
+    "source": "n_yQyVNC",
+    "target": "n_WmMQ0w",
+    "data": {
+     "edgeType": "then",
+     "pathId": ""
+    },
+    "type": "smoothEdge",
+    "sourceHandle": "",
+    "animated": false
+   },
+   {
+    "style": {
+     "stroke": "gray",
+     "strokeWidth": 1
+    },
+    "id": "e_DnD98J",
+    "markerEnd": "",
+    "label": "",
+    "source": "n_WOCJHy",
+    "target": "n_yQyVNC",
+    "data": {
+     "edgeType": "then",
+     "pathId": ""
+    },
+    "type": "smoothEdge",
+    "sourceHandle": "",
+    "animated": false
+   },
+   {
+    "style": {
+     "stroke": "gray",
+     "strokeWidth": 1
+    },
+    "id": "e_tp99Xa",
+    "markerEnd": "",
+    "label": "",
+    "source": "n_AFoPNP",
+    "target": "n_WOCJHy",
+    "data": {
+     "edgeType": "then",
+     "pathId": ""
+    },
+    "type": "smoothEdge",
+    "sourceHandle": "",
+    "animated": false
+   }
+  ],
+  "isEnabled": true,
+  "settings": {
+   "auditIO": true,
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "in",
+   "timeout": 0,
+   "timeoutAsync": 0
+  },
+  "comment": "",
+  "isDemo": false
+ },
+ "dependencies": [
+  {
+   "isDeleted": false,
+   "createdAt": "2026-09-14T12:44:14.375238Z",
+   "updatedAt": "2026-09-14T12:51:10.866713Z",
+   "entityCommitId": "commit-6f3c9754-b361-4e1e-a506-80b22ca6564f",
+   "entityType": "workflow",
+   "entityId": "f8089833-81fd-4428-a463-531b96d27e46",
+   "entityVersion": "0.70",
+   "entityNodeId": "n_ToqCED",
+   "dependencyType": "connector",
+   "dependencyId": "bbf462fd-31be-46cd-b98b-f20f398b9a8d",
+   "dependencyVersion": "live"
+  },
+  {
+   "isDeleted": false,
+   "createdAt": "2026-09-14T12:44:14.378231Z",
+   "updatedAt": "2026-09-14T12:51:10.866713Z",
+   "entityCommitId": "commit-6f3c9754-b361-4e1e-a506-80b22ca6564f",
+   "entityType": "workflow",
+   "entityId": "f8089833-81fd-4428-a463-531b96d27e46",
+   "entityVersion": "0.70",
+   "entityNodeId": "n_Z971WB",
+   "dependencyType": "connector",
+   "dependencyId": "bbf462fd-31be-46cd-b98b-f20f398b9a8d",
+   "dependencyVersion": "live"
+  },
+  {
+   "isDeleted": false,
+   "createdAt": "2026-09-14T12:44:14.38008Z",
+   "updatedAt": "2026-09-14T12:51:10.866713Z",
+   "entityCommitId": "commit-6f3c9754-b361-4e1e-a506-80b22ca6564f",
+   "entityType": "workflow",
+   "entityId": "f8089833-81fd-4428-a463-531b96d27e46",
+   "entityVersion": "0.70",
+   "entityNodeId": "n_WmMQ0w",
+   "dependencyType": "rule",
+   "dependencyId": "a8a56603-368b-4830-bcc4-d15294971b4e",
+   "dependencyVersion": "0.50"
+  },
+  {
+   "isDeleted": false,
+   "createdAt": "2026-09-14T12:44:14.382048Z",
+   "updatedAt": "2026-09-14T12:51:10.866713Z",
+   "entityCommitId": "commit-6f3c9754-b361-4e1e-a506-80b22ca6564f",
+   "entityType": "workflow",
+   "entityId": "f8089833-81fd-4428-a463-531b96d27e46",
+   "entityVersion": "0.70",
+   "entityNodeId": "numList",
+   "dependencyType": "variable",
+   "dependencyId": "74350f44-d1a9-41a6-8409-6f1299b4f63d",
+   "dependencyVersion": "live"
+  }
+ ]
+}

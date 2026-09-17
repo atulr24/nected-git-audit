@@ -1,0 +1,235 @@
+{
+ "entityType": "rule",
+ "category": "simpleRule",
+ "live": true,
+ "data": {
+  "createdAt": "2026-09-06T15:48:07.717Z",
+  "updatedAt": "2026-09-10T11:29:59.053Z",
+  "isDeleted": false,
+  "testedAt": "2026-09-10T11:29:48.796Z",
+  "publishedAt": "2026-09-10T11:29:59.033Z",
+  "entityId": "43e8737d-8f62-4ff1-81e5-b8bbffce1fb8",
+  "version": "0.10",
+  "name": "SimpleRuleAudit",
+  "commitId": "commit-8de73f5e-9069-45d5-8320-f0d0c478a265",
+  "status": "published",
+  "lastVersion": "draft",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Created at 2026-09-06 15:48:07",
+   "description": "v1",
+   "timeStamp": "2026-09-10T11:29:59.032Z"
+  },
+  "customInput": {
+   "age": {
+ "name": "age",
+ "dataType": "numeric",
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "attribute": "",
+ "sourceType": "",
+ "executedValue": null,
+ "config": null,
+ "value": "",
+ "next": "",
+ "previous": "",
+ "schemaId": ""
+}
+  },
+  "ruleChain": null,
+  "decisionTable": {
+   "rows": null,
+   "properties": null,
+   "results": null,
+   "firstRow": "",
+   "firstProperty": "",
+   "firstResult": "",
+   "firstAggOutputData": ""
+  },
+  "action": {
+   "then": {
+    "outputData": null,
+    "actionNode": null,
+    "firstOutputData": "",
+    "firstActionNode": ""
+   },
+   "else": {
+    "outputData": null,
+    "actionNode": null,
+    "firstOutputData": "",
+    "firstActionNode": ""
+   }
+  },
+  "conditions": {
+   "nodes": {
+    "rhs_NUJ3lb": {
+ "value": null,
+ "sourceType": "globalVar",
+ "name": "",
+ "operator": "",
+ "dataType": "numeric",
+ "nodeType": "params",
+ "attribute": "num",
+ "query": "",
+ "parent": "rule_02",
+ "children": null,
+ "leftNode": null,
+ "rightNode": null,
+ "siblingIndex": 1,
+ "returnType": ""
+},
+    "rhs_tOx9mz": {
+ "value": null,
+ "sourceType": "globalVar",
+ "name": "",
+ "operator": "",
+ "dataType": "numeric",
+ "nodeType": "params",
+ "attribute": "numList[4]",
+ "query": "",
+ "parent": "rule_02",
+ "children": null,
+ "leftNode": null,
+ "rightNode": null,
+ "siblingIndex": 2,
+ "returnType": ""
+},
+    "rule_01": {
+ "value": null,
+ "sourceType": "",
+ "name": "",
+ "operator": "",
+ "dataType": "",
+ "nodeType": "group",
+ "attribute": "",
+ "query": "",
+ "parent": "",
+ "children": [
+  "rule_02"
+ ],
+ "leftNode": null,
+ "rightNode": null,
+ "siblingIndex": 1,
+ "returnType": ""
+},
+    "rule_02": {
+ "value": null,
+ "sourceType": "",
+ "name": "",
+ "operator": "nbet",
+ "dataType": "numeric",
+ "nodeType": "condition",
+ "attribute": "",
+ "query": "",
+ "parent": "rule_01",
+ "children": null,
+ "leftNode": [
+  "rule_03"
+ ],
+ "rightNode": [
+  "rhs_NUJ3lb",
+  "rhs_tOx9mz"
+ ],
+ "siblingIndex": 1,
+ "returnType": ""
+},
+    "rule_03": {
+ "value": null,
+ "sourceType": "globalVar",
+ "name": "",
+ "operator": "",
+ "dataType": "numeric",
+ "nodeType": "params",
+ "attribute": "creditApplication.annualIncome",
+ "query": "",
+ "parent": "rule_02",
+ "children": null,
+ "leftNode": null,
+ "rightNode": null,
+ "siblingIndex": 1,
+ "returnType": ""
+}
+   },
+   "startNode": "rule_01"
+  },
+  "firstCustomInput": "age",
+  "firstRuleChain": "",
+  "ruleSetPolicy": "",
+  "description": "",
+  "policy": "",
+  "comment": "",
+  "type": "simpleRule",
+  "dataSetId": "",
+  "ruleSet": [],
+  "settings": {
+   "startAt": "0001-01-01T00:00:00Z",
+   "endAt": "0001-01-01T00:00:00Z",
+   "event": null,
+   "api": {
+    "isEnabled": true,
+    "isPrivate": true
+   },
+   "isEnabled": true,
+   "auditIO": false,
+   "cachingInfo": {
+    "Enabled": false,
+    "Duration": {
+     "Value": 0,
+     "Unit": ""
+    },
+    "CacheKeys": ""
+   },
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "in",
+   "timeout": 0,
+   "timeoutAsync": 0,
+   "timeoutCron": 0,
+   "styles": null
+  },
+  "isDemo": false,
+  "warnings": [],
+  "schemaVersion": "0.1.1"
+ },
+ "dependencies": [
+  {
+   "isDeleted": false,
+   "createdAt": "2026-09-10T11:29:19.356721Z",
+   "updatedAt": "2026-09-10T11:29:59.048072Z",
+   "entityCommitId": "commit-8de73f5e-9069-45d5-8320-f0d0c478a265",
+   "entityType": "rule",
+   "entityId": "43e8737d-8f62-4ff1-81e5-b8bbffce1fb8",
+   "entityVersion": "0.10",
+   "entityNodeId": "creditApplication",
+   "dependencyType": "variable",
+   "dependencyId": "09fd8bdf-bb06-46b2-8bfd-d301649728e8",
+   "dependencyVersion": "live"
+  },
+  {
+   "isDeleted": false,
+   "createdAt": "2026-09-10T11:29:32.839804Z",
+   "updatedAt": "2026-09-10T11:29:59.048072Z",
+   "entityCommitId": "commit-8de73f5e-9069-45d5-8320-f0d0c478a265",
+   "entityType": "rule",
+   "entityId": "43e8737d-8f62-4ff1-81e5-b8bbffce1fb8",
+   "entityVersion": "0.10",
+   "entityNodeId": "num",
+   "dependencyType": "variable",
+   "dependencyId": "5b8eb001-e4fd-493c-b3a4-2c187529ed6b",
+   "dependencyVersion": "live"
+  },
+  {
+   "isDeleted": false,
+   "createdAt": "2026-09-10T11:29:41.667586Z",
+   "updatedAt": "2026-09-10T11:29:59.048072Z",
+   "entityCommitId": "commit-8de73f5e-9069-45d5-8320-f0d0c478a265",
+   "entityType": "rule",
+   "entityId": "43e8737d-8f62-4ff1-81e5-b8bbffce1fb8",
+   "entityVersion": "0.10",
+   "entityNodeId": "numList",
+   "dependencyType": "variable",
+   "dependencyId": "74350f44-d1a9-41a6-8409-6f1299b4f63d",
+   "dependencyVersion": "live"
+  }
+ ]
+}

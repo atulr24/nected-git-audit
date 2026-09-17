@@ -3,9 +3,9 @@
  "category": "simpleRule",
  "data": {
   "createdAt": "2026-09-10T06:11:51.965Z",
-  "updatedAt": "2026-09-10T09:46:43.423851Z",
+  "updatedAt": "2026-09-16T07:09:12.129326Z",
   "isDeleted": false,
-  "testedAt": "2026-09-10T09:46:43.422Z",
+  "testedAt": "2026-09-16T07:09:12.128Z",
   "publishedAt": "0001-01-01T00:00:00Z",
   "entityId": "45c84e2d-aba7-41d2-9b67-4160252652d6",
   "version": "draft",
@@ -28,7 +28,9 @@
  "attribute": "",
  "sourceType": "",
  "executedValue": null,
- "config": null,
+ "config": {
+  
+ },
  "value": "",
  "next": "Name",
  "previous": "very_long_name_fifft_characterslessthan",
@@ -43,14 +45,16 @@
  "attribute": "",
  "sourceType": "",
  "executedValue": "2026-09-10T01:01:00+05:30",
- "config": null,
+ "config": {
+  
+ },
  "value": "",
  "next": "bool",
  "previous": "json",
  "schemaId": ""
 },
-   "List": {
- "name": "List",
+   "Lister": {
+ "name": "Lister",
  "dataType": "list",
  "isOptional": false,
  "isNullable": false,
@@ -79,9 +83,11 @@
  "isNullable": false,
  "isCaseSensitive": false,
  "attribute": "DEPT_NAME",
- "sourceType": "dataSet",
+ "sourceType": "",
  "executedValue": "Engineering",
- "config": null,
+ "config": {
+  
+ },
  "value": "",
  "next": "json",
  "previous": "Date",
@@ -96,7 +102,9 @@
  "attribute": "",
  "sourceType": "",
  "executedValue": true,
- "config": null,
+ "config": {
+  
+ },
  "value": "",
  "next": "",
  "previous": "DateTime",
@@ -119,28 +127,28 @@
 },
   "Headers": {
  "Access-Control-Allow-Credentials": "true",
- "Age": "28407",
+ "Age": "67",
  "Alt-Svc": "h3=\":443\"; ma=86400",
  "Cache-Control": "max-age=43200",
  "Cf-Cache-Status": "HIT",
- "Cf-Ray": "a38d53863cbf8532-HKG",
+ "Cf-Ray": "a3b849d308571da9-BOM",
  "Content-Type": "application/json; charset=utf-8",
- "Date": "Thu, 10 Sep 2026 09:15:06 GMT",
+ "Date": "Tue, 15 Sep 2026 14:23:16 GMT",
  "Etag": "W/\"11b-USacuIw5a/iXAGdNKBvqr/TbMTc\"",
  "Expires": "-1",
  "Nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
  "Pragma": "no-cache",
- "Report-To": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=CtQrKYaAABymIHKLAjHW5lQI%2FqqTOxXmXkLvxzsWje0%3D\\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\\u0026ts=1788944434\"}],\"max_age\":3600}",
- "Reporting-Endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=CtQrKYaAABymIHKLAjHW5lQI%2FqqTOxXmXkLvxzsWje0%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1788944434\"",
+ "Report-To": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=ef0rqzH19tog0VB1YkWRdvBPz7x8nzzCBh6kQ94XYZE%3D\\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\\u0026ts=1789324269\"}],\"max_age\":3600}",
+ "Reporting-Endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=ef0rqzH19tog0VB1YkWRdvBPz7x8nzzCBh6kQ94XYZE%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1789324269\"",
  "Server": "cloudflare",
- "Server-Timing": "cfCacheStatus;desc=\"HIT\",cfEdge;dur=12,cfOrigin;dur=0",
+ "Server-Timing": "cfCacheStatus;desc=\"HIT\",cfEdge;dur=11,cfOrigin;dur=0",
  "Vary": "Origin, Accept-Encoding",
  "Via": "2.0 heroku-router",
  "X-Content-Type-Options": "nosniff",
  "X-Powered-By": "Express",
  "X-Ratelimit-Limit": "1000",
  "X-Ratelimit-Remaining": "999",
- "X-Ratelimit-Reset": "1788944467"
+ "X-Ratelimit-Reset": "1789324273"
 },
   "StatusCode": 200,
   "error": ""
@@ -189,7 +197,7 @@
  },
  "value": "",
  "next": "very_long_name_fifft_characterslessthan",
- "previous": "List",
+ "previous": "Lister",
  "schemaId": "b213e6f0-3c0d-4506-985b-96a3a2cc6cdd"
 },
    "very_long_name_fifft_characterslessthan": {
@@ -481,11 +489,11 @@
  "name": "key_name_1",
  "dataType": "string",
  "returnType": "",
- "value": "false",
+ "value": null,
  "next": "key_name_2",
- "executedValue": "false",
- "attribute": "",
- "source": "",
+ "executedValue": "Value",
+ "attribute": "str1",
+ "source": "globalVar",
  "schemaId": ""
 },
      "key_name_2": {
@@ -614,7 +622,7 @@
  "operator": "",
  "dataType": "list",
  "nodeType": "params",
- "attribute": "List",
+ "attribute": "list",
  "query": "",
  "parent": "c_VNW63Y",
  "children": null,
@@ -782,7 +790,7 @@
  "value": null,
  "sourceType": "",
  "name": "",
- "operator": "and",
+ "operator": "or",
  "dataType": "",
  "nodeType": "group",
  "attribute": "",
@@ -838,18 +846,18 @@
    },
    "startNode": "rule_01"
   },
-  "firstCustomInput": "List",
+  "firstCustomInput": "Lister",
   "firstRuleChain": "",
   "ruleSetPolicy": "",
   "description": "",
   "policy": "",
   "comment": "",
   "type": "simpleRule",
-  "dataSetId": "a8ce0fc5-7249-4326-aaa3-b566203c38d4",
+  "dataSetId": "",
   "ruleSet": [],
   "settings": {
-   "startAt": "2026-09-10T00:00:00+05:30",
-   "endAt": "2026-09-11T00:00:00+05:30",
+   "startAt": "0001-01-01T00:00:00Z",
+   "endAt": "0001-01-01T00:00:00Z",
    "event": null,
    "api": {
     "isEnabled": true,
@@ -873,16 +881,14 @@
    "styles": null
   },
   "isDemo": false,
-  "warnings": [
-   "Dataset is attached in rule input but not used inside any condition or used only with Any operator."
-  ],
+  "warnings": [],
   "schemaVersion": "0.1.1"
  },
  "dependencies": [
   {
    "isDeleted": false,
    "createdAt": "2026-09-10T08:41:24.086624Z",
-   "updatedAt": "2026-09-10T09:16:52.699067Z",
+   "updatedAt": "2026-09-15T14:23:24.55721Z",
    "entityCommitId": "commit-80334fd2-f996-4f88-b246-1c66b952fe3a",
    "entityType": "rule",
    "entityId": "45c84e2d-aba7-41d2-9b67-4160252652d6",
@@ -894,8 +900,21 @@
   },
   {
    "isDeleted": false,
+   "createdAt": "2026-09-10T08:49:46.935647Z",
+   "updatedAt": "2026-09-15T14:23:24.556411Z",
+   "entityCommitId": "commit-80334fd2-f996-4f88-b246-1c66b952fe3a",
+   "entityType": "rule",
+   "entityId": "45c84e2d-aba7-41d2-9b67-4160252652d6",
+   "entityVersion": "draft",
+   "entityNodeId": "then-actionData_action_4",
+   "dependencyType": "connector",
+   "dependencyId": "d0591038-2d24-4a13-851e-c43d0f1a0180",
+   "dependencyVersion": "live"
+  },
+  {
+   "isDeleted": false,
    "createdAt": "2026-09-10T08:47:37.129028Z",
-   "updatedAt": "2026-09-10T09:16:52.696883Z",
+   "updatedAt": "2026-09-15T14:23:24.555582Z",
    "entityCommitId": "commit-80334fd2-f996-4f88-b246-1c66b952fe3a",
    "entityType": "rule",
    "entityId": "45c84e2d-aba7-41d2-9b67-4160252652d6",
@@ -908,7 +927,7 @@
   {
    "isDeleted": false,
    "createdAt": "2026-09-10T08:47:26.973276Z",
-   "updatedAt": "2026-09-10T09:16:52.695561Z",
+   "updatedAt": "2026-09-15T14:23:24.554726Z",
    "entityCommitId": "commit-80334fd2-f996-4f88-b246-1c66b952fe3a",
    "entityType": "rule",
    "entityId": "45c84e2d-aba7-41d2-9b67-4160252652d6",
@@ -921,7 +940,7 @@
   {
    "isDeleted": false,
    "createdAt": "2026-09-10T09:15:41.271974Z",
-   "updatedAt": "2026-09-10T09:16:52.692547Z",
+   "updatedAt": "2026-09-15T14:23:24.553807Z",
    "entityCommitId": "commit-80334fd2-f996-4f88-b246-1c66b952fe3a",
    "entityType": "rule",
    "entityId": "45c84e2d-aba7-41d2-9b67-4160252652d6",
@@ -933,34 +952,8 @@
   },
   {
    "isDeleted": false,
-   "createdAt": "2026-09-10T08:49:46.935647Z",
-   "updatedAt": "2026-09-10T09:16:52.69084Z",
-   "entityCommitId": "commit-80334fd2-f996-4f88-b246-1c66b952fe3a",
-   "entityType": "rule",
-   "entityId": "45c84e2d-aba7-41d2-9b67-4160252652d6",
-   "entityVersion": "draft",
-   "entityNodeId": "then-actionData_action_4",
-   "dependencyType": "connector",
-   "dependencyId": "d0591038-2d24-4a13-851e-c43d0f1a0180",
-   "dependencyVersion": "live"
-  },
-  {
-   "isDeleted": false,
-   "createdAt": "2026-09-10T09:15:41.270697Z",
-   "updatedAt": "2026-09-10T09:16:52.689646Z",
-   "entityCommitId": "commit-80334fd2-f996-4f88-b246-1c66b952fe3a",
-   "entityType": "rule",
-   "entityId": "45c84e2d-aba7-41d2-9b67-4160252652d6",
-   "entityVersion": "draft",
-   "entityNodeId": "dataSet",
-   "dependencyType": "dataSet",
-   "dependencyId": "a8ce0fc5-7249-4326-aaa3-b566203c38d4",
-   "dependencyVersion": "draft"
-  },
-  {
-   "isDeleted": false,
    "createdAt": "2026-09-10T06:13:50.436018Z",
-   "updatedAt": "2026-09-10T09:16:52.688747Z",
+   "updatedAt": "2026-09-15T14:23:24.552926Z",
    "entityCommitId": "commit-80334fd2-f996-4f88-b246-1c66b952fe3a",
    "entityType": "rule",
    "entityId": "45c84e2d-aba7-41d2-9b67-4160252652d6",
@@ -972,8 +965,47 @@
   },
   {
    "isDeleted": false,
+   "createdAt": "2026-09-10T08:42:36.846612Z",
+   "updatedAt": "2026-09-15T14:23:24.552144Z",
+   "entityCommitId": "commit-80334fd2-f996-4f88-b246-1c66b952fe3a",
+   "entityType": "rule",
+   "entityId": "45c84e2d-aba7-41d2-9b67-4160252652d6",
+   "entityVersion": "draft",
+   "entityNodeId": "num",
+   "dependencyType": "variable",
+   "dependencyId": "5b8eb001-e4fd-493c-b3a4-2c187529ed6b",
+   "dependencyVersion": "live"
+  },
+  {
+   "isDeleted": false,
+   "createdAt": "2026-09-10T06:13:29.648311Z",
+   "updatedAt": "2026-09-15T14:23:24.551287Z",
+   "entityCommitId": "commit-80334fd2-f996-4f88-b246-1c66b952fe3a",
+   "entityType": "rule",
+   "entityId": "45c84e2d-aba7-41d2-9b67-4160252652d6",
+   "entityVersion": "draft",
+   "entityNodeId": "nameDyna",
+   "dependencyType": "variable",
+   "dependencyId": "6b06246c-0912-4cdc-8e26-c41ac6fbc5e3",
+   "dependencyVersion": "live"
+  },
+  {
+   "isDeleted": false,
+   "createdAt": "2026-09-10T06:45:54.199184Z",
+   "updatedAt": "2026-09-15T14:23:24.550402Z",
+   "entityCommitId": "commit-80334fd2-f996-4f88-b246-1c66b952fe3a",
+   "entityType": "rule",
+   "entityId": "45c84e2d-aba7-41d2-9b67-4160252652d6",
+   "entityVersion": "draft",
+   "entityNodeId": "list",
+   "dependencyType": "variable",
+   "dependencyId": "7196b8e1-3aad-4618-9b66-532ee98dd8e7",
+   "dependencyVersion": "live"
+  },
+  {
+   "isDeleted": false,
    "createdAt": "2026-09-10T08:42:36.847462Z",
-   "updatedAt": "2026-09-10T09:16:52.687896Z",
+   "updatedAt": "2026-09-15T14:23:24.54945Z",
    "entityCommitId": "commit-80334fd2-f996-4f88-b246-1c66b952fe3a",
    "entityType": "rule",
    "entityId": "45c84e2d-aba7-41d2-9b67-4160252652d6",
@@ -986,7 +1018,7 @@
   {
    "isDeleted": false,
    "createdAt": "2026-09-10T06:13:44.934437Z",
-   "updatedAt": "2026-09-10T09:16:52.687174Z",
+   "updatedAt": "2026-09-15T14:23:24.548071Z",
    "entityCommitId": "commit-80334fd2-f996-4f88-b246-1c66b952fe3a",
    "entityType": "rule",
    "entityId": "45c84e2d-aba7-41d2-9b67-4160252652d6",
@@ -994,45 +1026,6 @@
    "entityNodeId": "str1",
    "dependencyType": "variable",
    "dependencyId": "e31d13f7-febb-4c31-bbe4-ffc6b9be8b06",
-   "dependencyVersion": "live"
-  },
-  {
-   "isDeleted": false,
-   "createdAt": "2026-09-10T06:13:29.648311Z",
-   "updatedAt": "2026-09-10T09:16:52.686497Z",
-   "entityCommitId": "commit-80334fd2-f996-4f88-b246-1c66b952fe3a",
-   "entityType": "rule",
-   "entityId": "45c84e2d-aba7-41d2-9b67-4160252652d6",
-   "entityVersion": "draft",
-   "entityNodeId": "nameDyna",
-   "dependencyType": "variable",
-   "dependencyId": "6b06246c-0912-4cdc-8e26-c41ac6fbc5e3",
-   "dependencyVersion": "live"
-  },
-  {
-   "isDeleted": false,
-   "createdAt": "2026-09-10T08:42:36.846612Z",
-   "updatedAt": "2026-09-10T09:16:52.685807Z",
-   "entityCommitId": "commit-80334fd2-f996-4f88-b246-1c66b952fe3a",
-   "entityType": "rule",
-   "entityId": "45c84e2d-aba7-41d2-9b67-4160252652d6",
-   "entityVersion": "draft",
-   "entityNodeId": "num",
-   "dependencyType": "variable",
-   "dependencyId": "5b8eb001-e4fd-493c-b3a4-2c187529ed6b",
-   "dependencyVersion": "live"
-  },
-  {
-   "isDeleted": false,
-   "createdAt": "2026-09-10T06:45:54.199184Z",
-   "updatedAt": "2026-09-10T09:16:52.68504Z",
-   "entityCommitId": "commit-80334fd2-f996-4f88-b246-1c66b952fe3a",
-   "entityType": "rule",
-   "entityId": "45c84e2d-aba7-41d2-9b67-4160252652d6",
-   "entityVersion": "draft",
-   "entityNodeId": "list",
-   "dependencyType": "variable",
-   "dependencyId": "7196b8e1-3aad-4618-9b66-532ee98dd8e7",
    "dependencyVersion": "live"
   }
  ]
